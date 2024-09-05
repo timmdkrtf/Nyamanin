@@ -14,7 +14,7 @@ function Home(){
                         <h1><span className="kebersihan">Kebersihan</span> Berkualitas tanpa batas? <span className="nyamanin"><img src={brushGreen} alt="" />Nyamanin</span> aja</h1>
                         <p>Tim profesional kami siap mengatasi noda dan kotoran membandel dengan peralatan terbaik. Hemat waktu, rasakan ketenangan, dan nikmati kebersihan yang tak terlupakan. Pelayanan kami, kepuasan Anda.</p>
                         <div className="d-flex">
-                            <button>Baca Selengkapnya</button>
+                            <a href="#about"><button>Baca Selengkapnya</button></a>
                             <a href="#">Kontak Sekarang</a>
                         </div>
                     </div>
