@@ -1,12 +1,12 @@
 import { useState, useRef, useEffect } from "react";
 import Slider from "react-slick";
 import { CiGlobe } from "react-icons/ci";
-import doc1 from "../assets/documentation/cover1.png";
-import doc2 from "../assets/documentation/cover2.png";
-import doc3 from "../assets/documentation/cover3.png";
-import doc4 from "../assets/documentation/cover4.png";
-import doc5 from "../assets/documentation/cover5.png";
-import doc6 from "../assets/documentation/cover6.png";
+import doc1 from "../assets/documentation/Cover1.png";
+import doc2 from "../assets/documentation/Cover2.png";
+import doc3 from "../assets/documentation/Cover3.png";
+import doc4 from "../assets/documentation/Cover4.png";
+import doc5 from "../assets/documentation/Cover5.png";
+import doc6 from "../assets/documentation/Cover6.png";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
