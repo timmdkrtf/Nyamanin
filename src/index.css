@@ -111,7 +111,7 @@ body{
     box-shadow: 1px 1px 0px #FBC402;
 }
 
-.home .text-left .d-flex a {
+.home .text-left .d-flex .arrow {
     font-size: 16px;
     color: rgb(0, 0, 0, 1);
     text-decoration: none;
@@ -120,7 +120,7 @@ body{
     transition: 0.5s;
 }
 
-.home .text-left .d-flex a::after {
+.home .text-left .d-flex .arrow::after {
     content: '→';
     font-size: 30px;
     color: rgb(0, 0, 0, 1);
@@ -133,7 +133,7 @@ body{
     margin-top: -2px;
 }
 
-.home .text-left .d-flex a:hover::after {
+.home .text-left .d-flex .arrow:hover::after {
     opacity: 1; 
 }
 
@@ -982,13 +982,13 @@ body{
         font-size: 12px;
     }
 
-    .home .text-left .d-flex a {
+    .home .text-left .d-flex .arrow {
         font-size: 12px;
         padding-right: 32px; 
         font-weight: 500;
     }
 
-    .home .text-left .d-flex a::after {
+    .home .text-left .d-flex .arrow::after {
         content: '→';
         font-size: 25px;
         color: rgb(0, 0, 0, 1);
@@ -1056,17 +1056,17 @@ body{
         font-size: 11px;
     }
 
-    .home .text-left .d-flex a {
+    .home .text-left .d-flex .arrow {
         font-size: 11px;
         padding-right: 12px; 
         font-weight: 500;
     }
 
-    .home .text-left .d-flex a::after {
+    .home .text-left .d-flex .arrow::after {
         display: none;
     }
 
-    .home .text-left .d-flex a:hover{
+    .home .text-left .d-flex .arrow:hover{
         margin-top: -10px;
         margin-left: 0;
     }

@@ -15,7 +15,7 @@ function Home(){
                         <p>Tim profesional kami siap mengatasi noda dan kotoran membandel dengan peralatan terbaik. Hemat waktu, rasakan ketenangan, dan nikmati kebersihan yang tak terlupakan. Pelayanan kami, kepuasan Anda.</p>
                         <div className="d-flex">
                             <a href="#about"><button>Baca Selengkapnya</button></a>
-                            <a href="#">Kontak Sekarang</a>
+                            <a href="#" className="arrow">Kontak Sekarang</a>
                         </div>
                     </div>
                     <div className="bg-right">
