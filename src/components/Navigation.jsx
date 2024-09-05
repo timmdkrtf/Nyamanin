@@ -3,8 +3,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logoNyamanin from "../assets/logo/1. Nyamanin Logo Utama (P).png"
 
-import { Link } from 'react-router-dom';
-
 function Navigation() {
   return (
     <Navbar collapseOnSelect expand="lg" fixed="top">
