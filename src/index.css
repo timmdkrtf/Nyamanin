@@ -916,6 +916,14 @@ body{
   margin-top: 5px;
 }
 
+.realtour img{
+    margin-top: -5px;
+  }
+  
+  .nyamanin img{
+    margin-top: -0px;
+  }
+
 .about .content .text-content h3{
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
