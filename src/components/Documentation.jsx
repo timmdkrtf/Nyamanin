@@ -109,7 +109,7 @@ function Documentation() {
           </p>
         </div>
         <div className="col-12 col-md-4 col-sm-12" style={{margin:"0 0 0 auto", textAlign:"end", alignSelf:"center"}}>
-          <a href="https://instagram.com/realtour.co.id" target="_blank"><button className="btn" style={{padding:"12px 28px", borderRadius:"15px"}}>
+          <a href="https://instagram.com/nyamanin.co.id" target="_blank"><button className="btn" style={{padding:"12px 28px", borderRadius:"15px"}}>
             Join us Now!
           </button></a>
         </div>
