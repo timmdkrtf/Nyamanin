@@ -8,6 +8,8 @@ import doc4 from "../assets/documentation/Cover4.png";
 import doc5 from "../assets/documentation/Cover5.png";
 import doc6 from "../assets/documentation/Cover6.png";
 
+import rectangle from "../assets/elemen/Rectangle 5 (1).svg"
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -101,7 +103,7 @@ function Documentation() {
       <div className="container">
       <div className="row w-100 py-5">
         <div className="col-12 col-md-4 col-sm-12">
-          <h2 className="fw-bold">Dokumentasi</h2>
+          <h2 className="fw-bold">Portofolio <span>Pengerjaan</span></h2>
         </div>
         <div className="col-12 col-md-4 col-sm-12">
           <p>
@@ -109,7 +111,8 @@ function Documentation() {
           </p>
         </div>
         <div className="col-12 col-md-4 col-sm-12" style={{margin:"0 0 0 auto", textAlign:"end", alignSelf:"center"}}>
-          <a href="https://instagram.com/nyamanin.co.id" target="_blank"><button className="btn" style={{padding:"12px 28px", borderRadius:"15px"}}>
+          <a href="https://instagram.com/nyamanin.co.id" target="_blank"><button className="btn">
+            <img src={rectangle} alt="" />
             Join us Now!
           </button></a>
         </div>

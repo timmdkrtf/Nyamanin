@@ -1,5 +1,6 @@
 import brushGreen from "../assets/elemen/Union.png"
-import crewBG from "../assets/crew/bg-left-crew.png"
+import crewBGRevisi from "../assets/crew/bg-left-crew-revisi (1).png"
+import rectangle from "../assets/elemen/Rectangle 5 (1).svg"
 
 import { CiSettings } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
@@ -14,12 +15,12 @@ function Home(){
                         <h1><span className="kebersihan">Kebersihan</span> Berkualitas tanpa batas? <span className="nyamanin"><img src={brushGreen} alt="" />Nyamanin</span> aja</h1>
                         <p>Tim profesional kami siap mengatasi noda dan kotoran membandel dengan peralatan terbaik. Hemat waktu, rasakan ketenangan, dan nikmati kebersihan yang tak terlupakan. Pelayanan kami, kepuasan Anda.</p>
                         <div className="d-flex">
-                            <a href="#about"><button>Baca Selengkapnya</button></a>
+                            <a href="#about"><button><img src={rectangle} alt="" />Baca Selengkapnya</button></a>
                             <a href="https://api.whatsapp.com/send?phone=6281211113526" target="_blank" className="arrow">Kontak Sekarang</a>
                         </div>
                     </div>
                     <div className="bg-right">
-                        <img src={crewBG} alt="" />
+                        <img src={crewBGRevisi} alt="" />
                         <div className="blur-parent">
                             <div className="blur-component leftTop">
                                 <CiStar className="fs-2" />

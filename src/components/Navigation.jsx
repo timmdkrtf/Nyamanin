@@ -14,7 +14,7 @@ function Navigation() {
             <Nav.Link href="#home">Beranda</Nav.Link>
             <Nav.Link href="#about">Tentang Kami</Nav.Link>
             <Nav.Link href="#service">Layanan</Nav.Link>
-            <Nav.Link href="#portfolio">Dokumentasi</Nav.Link>
+            <Nav.Link href="#portfolio">Portofolio</Nav.Link>
             <Nav.Link href="#contact">Kontak</Nav.Link>
           </Nav>
         </Navbar.Collapse>

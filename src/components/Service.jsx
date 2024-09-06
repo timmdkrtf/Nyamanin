@@ -1,5 +1,5 @@
 import iconCleaning from "../assets/icon/cleaning-service.png"
-import iconWashingMachine from "../assets/icon/washing-machine.png"
+import iconCouch from "../assets/icon/couch.png"
 import iconRequest from "../assets/icon/request-for-proposal.png"
 
 function Service(){
@@ -17,7 +17,7 @@ function Service(){
                             <p>General Cleaning, Toilet Cleaning</p>
                         </div>
                         <div className="card">
-                            <img src={iconWashingMachine} alt="" />
+                            <img src={iconCouch} alt="" />
                             <h3>Laundry</h3>
                             <p>Cuci berbagai jenis kasur, sofa, kursi, karpet, dan perlengkapan bayi</p>
                         </div>
