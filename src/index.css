@@ -1018,6 +1018,19 @@ body{
   margin: -13px 0 0 -15px;
   width: 200px;
 }
+
+#portfolio h2.fw-bold span::after{
+  content: "";
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: -12px;
+  transform: rotate(-1deg);
+  left: 0;
+  background-image: url(../src/assets/elemen/gelombang-garis.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
   }
 
   @media screen and (max-width: 480px) {
