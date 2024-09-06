@@ -1,6 +1,8 @@
 import logoNyamanin from "../assets/logo/1. Nyamanin Logo Utama (P).png"
 import brush2brown from "../assets/elemen/path1923 (1).png"
 
+import rectangle2 from "../assets/elemen/Rectangle 5 (2).svg"
+
 function About(){
     return(
         <div className="about" id="about">
@@ -10,7 +12,7 @@ function About(){
                         <img src={logoNyamanin} alt="" />
                     </div>
                     <div className="text-content">
-                        <h3><img src={brush2brown} alt="" />Tentang Kami</h3>
+                        <h3><img src={rectangle2} alt="" />Tentang Kami</h3>
                         <p>
                             Nyamanin adalah layanan jasa kebersihan
                             berkualitas persembahan dari PT Abdi Sarana Asri.

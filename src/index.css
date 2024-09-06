@@ -290,13 +290,14 @@ body{
     color: #FBC402;
     z-index: 1 !important;
     position: relative;
-    margin: 0 0 20px 36px;
+    margin: 0 0 20px 10px;
 }
 
 .about .content .text-content h3 img{
     position: absolute;
     z-index: -1 !important;
-    margin: -5px 0 0 -36px;
+    margin: -13px 0 0 -10px;
+    width: 230px;
 }
 
 .about .content .text-content p{
@@ -408,7 +409,7 @@ body{
     bottom: -10px;
     transform: rotate(-1deg);
     left: 0;
-    background-image: url('../src/assets/elemen/kuning.png');
+    background-image: url('../src/assets/elemen/Group\ \(4\).png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -640,6 +641,12 @@ body{
     font-weight: 800;
   }
 
+  .swiper-slide {
+    display: flex;
+    text-align: center;
+    justify-content: center; /* Pusatkan konten dalam slide */
+  }
+
 
   @media screen and (max-width: 1200px) {
     .home .text-left h1{
@@ -786,13 +793,13 @@ body{
         position: relative;
         margin: 0 0 20px 27px;
     }
-    
+
     .about .content .text-content h3 img{
-        position: absolute;
-        z-index: -1 !important;
-        margin: -5px 0 0 -27px;
-        width: 240px;
-    }
+      position: absolute;
+      z-index: -1 !important;
+      margin: -13px 0 0 -20px;
+      width: 230px;
+  }
   }
 
   @media screen and (max-width: 768px) {
@@ -810,6 +817,13 @@ body{
         margin: 400px 0 0 -10px;
         width: 180px !important;
     }
+
+    .about .content .text-content h3 img{
+      position: absolute;
+      z-index: -1 !important;
+      margin: -13px 0 0 -15px;
+      width: 210px;
+  }
     
 
     .home .blur-component.rightBottom{
@@ -856,12 +870,6 @@ body{
         height: 135px;
         object-fit: contain;
         text-align: center;
-      }
-
-      .swiper-slide {
-        display: flex;
-        text-align: center;
-        justify-content: center; /* Pusatkan konten dalam slide */
       }
   }
 
@@ -1001,10 +1009,10 @@ body{
 }
 
 .about .content .text-content h3 img{
-    position: absolute;
-    z-index: -1 !important;
-    margin: -5px 0 0 -25px;
-    width: 220px;
+  position: absolute;
+  z-index: -1 !important;
+  margin: -13px 0 0 -15px;
+  width: 200px;
 }
   }
 
