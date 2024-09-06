@@ -1,5 +1,4 @@
 import logoNyamanin from "../assets/logo/1. Nyamanin Logo Utama (P).png"
-import brush2brown from "../assets/elemen/path1923 (1).png"
 
 import rectangle2 from "../assets/elemen/Rectangle 5 (2).svg"
 

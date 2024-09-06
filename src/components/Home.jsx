@@ -1,5 +1,5 @@
 import brushGreen from "../assets/elemen/Union.png"
-import crewBGRevisi from "../assets/crew/bg-left-crew-revisi (1).png"
+import crewBGRevisi from "../assets/crew/bg-left-crew-revisi (2).png"
 import rectangle from "../assets/elemen/Rectangle 5 (1).svg"
 
 import { CiSettings } from "react-icons/ci";
