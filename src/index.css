@@ -1218,6 +1218,13 @@ body{
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.partners .leaf-right-bottom img{
+  width: 35%;
+  position: absolute;
+  right: 0;
+  margin-top: 60px;
+}
   }
 
   @media screen and (max-width: 480px) {
@@ -1457,5 +1464,12 @@ body{
   }
 .realtour img{
   margin-top: -3px !important;
+}
+
+.partners .leaf-right-bottom img{
+  width: 40%;
+  position: absolute;
+  right: 0;
+  margin-top: 80px;
 }
   }
