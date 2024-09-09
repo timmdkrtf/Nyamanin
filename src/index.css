@@ -879,7 +879,7 @@ body{
         color: #FBC402;
         z-index: 1 !important;
         position: relative;
-        margin: 0 0 20px 27px;
+        margin: 0 0 20px 0px;
     }
 
     .partners .leaf-right-bottom img{
@@ -1153,7 +1153,7 @@ body{
     color: #FBC402;
     z-index: 1 !important;
     position: relative;
-    margin: 0 0 20px 25px;
+    margin: 0 0 20px 0;
 }
 
 .about .content .text-content h3 img{
