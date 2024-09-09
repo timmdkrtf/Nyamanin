@@ -14,6 +14,8 @@ import AYP from "../assets/logo/1. AYP Logo Primary (P).png";
 import TMC from "../assets/logo/1. TMC Logo Primary (P).png";
 import TMF from "../assets/logo/1. TMF Logo Primary (P).png";
 
+import waveTop from "../assets/elemen/Gelombang-top-cut.png"
+import leafRight from "../assets/elemen/Monstera 4.png"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
@@ -50,6 +52,9 @@ const Client = () => {
     return (
         <>
         <section className="partners max-w-2xl mx-auto py-5 my-5">
+            <div className='wave-top'>
+                <img src={waveTop} alt="" />
+            </div>
             <h1 className="font-Leaguespartan text-3xl text-center font-bold">Klien Kami</h1>
             <Swiper
                 loop={true}
@@ -100,6 +105,9 @@ const Client = () => {
                 <SwiperSlide className="TMC"><img src={TMC} alt="TMC" /></SwiperSlide>
                 <SwiperSlide className="TMF"><img src={TMF} alt="TMF" /></SwiperSlide>
             </Swiper>
+            <div className='leaf-right-bottom'>
+                  <img src={leafRight} alt="" />
+            </div>
         </section>
         </>
     );

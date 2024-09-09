@@ -2,9 +2,15 @@ import iconCleaning from "../assets/icon/cleaning-service.png"
 import iconCouch from "../assets/icon/couch.png"
 import iconRequest from "../assets/icon/request-for-proposal.png"
 
+import yellowWave from "../assets/elemen/green-wave.png"
+import liquidShape from "../assets/elemen/Cipratan 1.png"
+
 function Service(){
     return(
         <div className="service" id="service">
+            <div className="cipratan">
+                <img src={liquidShape} alt="" />
+            </div>
             <div className="container">
                 <div className="content">
                     <div className="title">
@@ -28,6 +34,9 @@ function Service(){
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="wave-bottom">
+                <img src={yellowWave} alt="" />
             </div>
         </div>
     );

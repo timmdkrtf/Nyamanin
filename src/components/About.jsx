@@ -11,7 +11,7 @@ function About(){
                         <img src={logoNyamanin} alt="" />
                     </div>
                     <div className="text-content">
-                        <h3><img src={rectangle2} alt="" />Tentang Kami</h3>
+                        <h3>Tentang Kami</h3>
                         <p>
                             Nyamanin adalah layanan jasa kebersihan
                             berkualitas persembahan dari PT Abdi Sarana Asri.

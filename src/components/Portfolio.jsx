@@ -111,8 +111,7 @@ function Documentation() {
           </p>
         </div>
         <div className="col-12 col-md-4 col-sm-12" style={{margin:"0 0 0 auto", textAlign:"end", alignSelf:"center"}}>
-          <a href="https://instagram.com/nyamanin.co.id" target="_blank"><button className="btn">
-            <img src={rectangle} alt="" />
+          <a href="https://instagram.com/nyamanin.co.id" target="_blank"><button >
             Join us Now!
           </button></a>
         </div>
@@ -121,7 +120,7 @@ function Documentation() {
       <Slider {...settingsFor} className="slider-for">
         {slides.map((slide, index) => (
           <div key={index} className="image-wrapper position-relative">
-            <img src={slide.img} alt="slide" className="img-fluid rounded w-100" />
+            <img src={slide.img} alt="slide" className="img-fluid w-100" />
             <CiGlobe className="position-absolute top-0 start-0 m-4 bg-white p-2 rounded-circle" size={48} />
             <div className="text-white position-absolute">
               <h4 style={{margin:"-40px 0 0 0"}}>{slide.mainTitle}</h4>
@@ -133,7 +132,7 @@ function Documentation() {
       <Slider {...settingsNav} className="slider-nav mt-4 pt-3">
         {slides.map((slide, index) => (
           <div key={index} className="px-2">
-            <img src={slide.img} alt="thumbnail" className="img-fluid rounded" />
+            <img src={slide.img} alt="thumbnail" className="img-fluid" />
           </div>
         ))}
       </Slider>
