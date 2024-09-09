@@ -320,6 +320,13 @@ body{
     font-family: "Lato", sans-serif;
 }
 
+.about .pot-right img{
+  position: absolute;
+  width: 11%;
+  right: 130px;
+  margin-top: -10px;
+}
+
 .service {
     margin: 30px 0 100px 0;
     padding: 100px 0 50px 0;
@@ -703,6 +710,9 @@ body{
     margin-top: 20px;
   }
 
+  footer{
+    background-color: #532200;
+  }
 
   @media screen and (max-width: 1200px) {
     .home .text-left h1{
@@ -750,16 +760,15 @@ body{
     }
 
     .about .content{
-        flex-direction: column-reverse;
         gap: 30px;
     }
 
     .about .content .logo-nyamanin{
-        width: 60%;
+        width: 40%;
     }
 
     .about .content .text-content{
-        width: 100%;
+        width: 50%;
     }
 
     .slider-for {
@@ -836,6 +845,25 @@ body{
         margin: 400px 0 0 500px;
         width: 150px !important;
     }
+
+    .about .content{
+      flex-direction: column-reverse;
+    }
+
+    .about .content .logo-nyamanin{
+      width: 60%;
+  }
+
+  .about .content .text-content{
+      width: 100%;
+  }
+
+  .about .pot-right img{
+    position: absolute;
+    width: 15%;
+    right: 50px;
+    margin-top: 20px;
+  }
 
     .service .content-flex{
         flex-wrap: wrap;
@@ -916,6 +944,13 @@ body{
       width: 45%;
       top: 0;
       z-index: -1;
+    }
+
+    .about .pot-right img{
+      position: absolute;
+      width: 20%;
+      right: 50px;
+      margin-top: 0px;
     }
 
     .service .content-flex .card{
@@ -1030,6 +1065,14 @@ body{
 
     .home .waveTop img{
       display: none;
+    }
+
+
+    .about .pot-right img{
+      position: absolute;
+      width: 120px;
+      right: 0;
+      margin-top: 20px;
     }
 
     .service .content-flex .card{

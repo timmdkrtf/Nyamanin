@@ -1,6 +1,6 @@
 import logoNyamanin from "../assets/logo/1. Nyamanin Logo Utama (P).png"
 
-import rectangle2 from "../assets/elemen/Rectangle 5 (2).svg"
+import potLeaf from "../assets/elemen/pot-shadow.png"
 
 function About(){
     return(
@@ -32,6 +32,9 @@ function About(){
                         </p>
                     </div>
                 </div>
+            </div>
+            <div className="pot-right">
+                <img src={potLeaf} alt="" />
             </div>
         </div>
     );
