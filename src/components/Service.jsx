@@ -5,6 +5,8 @@ import iconRequest from "../assets/icon/request-for-proposal.png"
 import yellowWave from "../assets/elemen/green-wave.png"
 import liquidShape from "../assets/elemen/Cipratan 1.png"
 
+import '@fontsource/source-sans-pro';
+
 function Service(){
     return(
         <div className="service" id="service">

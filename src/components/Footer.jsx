@@ -5,6 +5,8 @@ import logoNyamanin from "../assets/logo/2. Nyamanin Logo Utama (N).png";
 import { MdOutlinePhone } from "react-icons/md";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 
+import '@fontsource/source-sans-pro';
+
 const Footer = () => {
   return (
     <footer id="contact" className="text-white py-4">

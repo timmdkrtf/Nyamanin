@@ -8,7 +8,14 @@ import doc4 from "../assets/documentation/Cover4.png";
 import doc5 from "../assets/documentation/Cover5.png";
 import doc6 from "../assets/documentation/Cover6.png";
 
-import rectangle from "../assets/elemen/Rectangle 5 (1).svg"
+import elemenCipratan from "../assets/elemen/Cipratan 2.png"
+import leafTwist from "../assets/elemen/Monstera 6.png"
+import leafSingle from "../assets/elemen/Monstera 1.png"
+import elementCipratanSide from "../assets/elemen/Cipratan 4-cut.png"
+import sapuRight from "../assets/elemen/sapu-right.png"
+import peralatanShadow from "../assets/elemen/peralatan-shadow.png"
+
+import '@fontsource/source-sans-pro';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -111,6 +118,9 @@ function Documentation() {
           </p>
         </div>
         <div className="col-12 col-md-4 col-sm-12" style={{margin:"0 0 0 auto", textAlign:"end", alignSelf:"center"}}>
+          <div className="img-bg-button">
+            <img src={elemenCipratan} alt="" />
+          </div>
           <a href="https://instagram.com/nyamanin.co.id" target="_blank"><button >
             Join us Now!
           </button></a>
@@ -136,6 +146,20 @@ function Documentation() {
           </div>
         ))}
       </Slider>
+      </div>
+
+      <div className="element-center-left">
+        <img src={peralatanShadow} alt="" />
+      </div>
+      <div className="element-center-right">
+        <img src={sapuRight} alt="" />
+      </div>
+      <div className="element-left-bottom">
+        <img className="leaf-twist" src={leafTwist} alt="" />
+        <img className="leaf-single" src={leafSingle} alt="" />
+      </div>
+      <div className="element-right-bottom">
+        <img src={elementCipratanSide} alt="" />
       </div>
     </section>
   );

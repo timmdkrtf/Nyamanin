@@ -16,6 +16,7 @@ import TMF from "../assets/logo/1. TMF Logo Primary (P).png";
 
 import waveTop from "../assets/elemen/Gelombang-top-cut.png"
 import leafRight from "../assets/elemen/Monstera 4.png"
+import '@fontsource/source-sans-pro';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
@@ -55,7 +56,7 @@ const Client = () => {
             <div className='wave-top'>
                 <img src={waveTop} alt="" />
             </div>
-            <h1 className="font-Leaguespartan text-3xl text-center font-bold">Klien Kami</h1>
+            <h1 className="text-3xl text-center font-bold">Klien Kami</h1>
             <Swiper
                 loop={true}
                 freeMode={true}

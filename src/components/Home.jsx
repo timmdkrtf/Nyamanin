@@ -6,6 +6,8 @@ import { CiSettings } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 import { CiStar } from "react-icons/ci";
 
+import '@fontsource/source-sans-pro';
+
 import waveTop from "../assets/elemen/Gelombang-top-cut.png"
 
 function Home(){

@@ -2,6 +2,8 @@ import logoNyamanin from "../assets/logo/1. Nyamanin Logo Utama (P).png"
 
 import potLeaf from "../assets/elemen/pot-shadow.png"
 
+import '@fontsource/source-sans-pro';
+
 function About(){
     return(
         <div className="about" id="about">

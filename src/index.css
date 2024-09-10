@@ -128,7 +128,7 @@ body{
 }
 
 .home .text-left p{
-    font-family: "Lato", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 500;
     opacity: 0.8;
 }
@@ -249,12 +249,12 @@ body{
 
 .home .bg-right .blur-parent .blur-component p{
     margin: 0 0 -5px 0;
-    font-family: "Lato", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 13px;
 }
 .home .bg-right .blur-parent .blur-component b{
     margin: 0;
-    font-family: "Lato", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 13px;
     color: #274416;
 }
@@ -317,7 +317,7 @@ body{
 
 
 .about .content .text-content p{
-    font-family: "Lato", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .about .pot-right img{
@@ -398,7 +398,7 @@ body{
 }
 
 .service .content-flex .card p{
-    font-family: "Lato", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     width: 80%;
     margin: 5px auto;
     opacity: 0.8;
@@ -425,10 +425,12 @@ body{
     box-shadow: 0 -4px 4px #c4c4c4, 0 4px 4px #c4c4c4;
     padding-bottom: 70px !important;
     padding-top: 70px !important;
+    position: relative;
   }
   
   #portfolio h2.fw-bold{
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
     align-self: center;
     display: inline-block;
     position: relative;
@@ -436,7 +438,6 @@ body{
   }
 
   #portfolio h2.fw-bold span{
-    font-family: "Poppins", sans-serif;
     align-self: center;
     display: inline-block;
     position: relative;
@@ -457,10 +458,10 @@ body{
 }
   
   #portfolio p{
-    font-family: "Noto Serif", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
   }
   #portfolio a button{
-    font-family: "Be Vietnam Pro", sans-serif;
+    font-family: "Montserrat", sans-serif;
     border: none;
     background-color: transparent;
     padding: 10px 18px;
@@ -476,9 +477,17 @@ body{
     transition: 0.3s;
   }
 
+  #portfolio .img-bg-button img{
+    width: 100px;
+    position: absolute;
+    right: 90px;
+    margin-top: -10px;
+  }
+
   #portfolio a button:hover{
     color: #274416;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
     box-shadow: 0 2px 2px #FBC402;
   }
   
@@ -581,10 +590,69 @@ body{
     height: 500px;
   }
 
+  #portfolio .element-center-left{
+    left: 60px;
+    position: absolute;
+    margin: -250px 0 0 0;
+    z-index: 4;
+  }
+
+  #portfolio .element-center-left img{
+    width: 130px;
+  }
+
+  #portfolio .element-center-right{
+    right: 0;
+    position: absolute;
+    bottom: 300px;
+    z-index: 4;
+  }
+
+  #portfolio .element-center-right img{
+    width: 130px;
+  }
+
+  #portfolio .element-right-bottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  #portfolio .element-right-bottom img{
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  #portfolio .element-left-bottom{
+    bottom: 130px;
+    position: absolute;
+    left: 0;
+  }
+
+  #portfolio .element-left-bottom .leaf-twist{
+    width: 250px;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+  }
+
+  #portfolio .element-left-bottom .leaf-single{
+    width: 130px;
+    position: absolute;
+    margin: 60px 0 0 20px;
+    z-index: 1;
+  }
+
 .partners{
     width: 60%;
     margin-top: 80px !important;
     margin-bottom: 80px !important;
+  }
+
+  .partners h1{
+    font-family: "Montserrat", sans-serif;
   }
   
   .realtour img{
@@ -714,6 +782,18 @@ body{
     background-color: #532200;
   }
 
+  footer .py-4 small{
+    font-family: "Lato", sans-serif;
+  }
+
+  footer .py-4 .mt-3{
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  footer .text-center .mb-0{
+    font-family: "Lato", sans-serif;
+  }
+
   @media screen and (max-width: 1200px) {
     .home .text-left h1{
         font-family: "Montserrat", sans-serif;
@@ -779,6 +859,18 @@ body{
         width: 85%;
         margin: 0 auto;
       }
+
+      #portfolio .element-center-left{
+        left: 0;
+      }
+    
+      #portfolio .element-center-left img{
+        width: 100px;
+      }
+    
+      #portfolio .element-center-right img{
+        width: 100px;
+      }
     
       .partners{
         width: 70%;
@@ -806,6 +898,40 @@ body{
         position: absolute;
         right: 0;
         z-index: -1 !important;
+      }
+
+      #portfolio .element-right-bottom{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1 !important;
+      }
+    
+      #portfolio .element-right-bottom img{
+        width: 150px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+    
+      #portfolio .element-left-bottom{
+        bottom: 70px;
+        position: absolute;
+        left: 0;
+      }
+    
+      #portfolio .element-left-bottom .leaf-twist{
+        width: 180px;
+        position: absolute;
+        left: 0;
+        z-index: 2;
+      }
+    
+      #portfolio .element-left-bottom .leaf-single{
+        width: 90px;
+        position: absolute;
+        margin: 60px 0 0 20px;
+        z-index: 1;
       }
   }
 
@@ -1011,6 +1137,62 @@ body{
         text-align: center;
       }
 
+      #portfolio .element-center-left{
+        left: 0px;
+        position: absolute;
+        margin: -250px 0 0 0;
+        z-index: 4;
+      }
+    
+      #portfolio .element-center-left img{
+        width: 100px;
+      }
+    
+      #portfolio .element-center-right{
+        right: 0;
+        position: absolute;
+        bottom: 200px;
+        z-index: 4;
+      }
+    
+      #portfolio .element-center-right img{
+        width: 100px;
+      }
+
+      #portfolio .element-right-bottom{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1 !important;
+      }
+    
+      #portfolio .element-right-bottom img{
+        width: 110px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+    
+      #portfolio .element-left-bottom{
+        bottom: 70px;
+        position: absolute;
+        left: 0;
+      }
+    
+      #portfolio .element-left-bottom .leaf-twist{
+        width: 180px;
+        position: absolute;
+        left: 0;
+        z-index: 2;
+      }
+    
+      #portfolio .element-left-bottom .leaf-single{
+        width: 90px;
+        position: absolute;
+        margin: 60px 0 0 20px;
+        z-index: 1;
+      }
+
       .partners .wave-top img{
         position: absolute;
         width: 40%;
@@ -1053,12 +1235,10 @@ body{
     
     .home .bg-right .blur-parent .blur-component p{
         margin: 0 0 -5px 0;
-        font-family: "Lato", sans-serif;
         font-size: 12px;
     }
     .home .bg-right .blur-parent .blur-component b{
         margin: 0;
-        font-family: "Lato", sans-serif;
         font-size: 12px;
         color: #274416;
     }
@@ -1132,6 +1312,72 @@ body{
 
   .rounded-circle{
     display: none;
+  }
+
+  #portfolio a button{
+    margin-top: 10px;
+  }
+
+  #portfolio .img-bg-button img{
+    right: 10px;
+    margin-top: -10px;
+  }
+
+  #portfolio .element-center-left{
+    left: 0px;
+    position: absolute;
+    margin: -150px 0 0 0;
+    z-index: 4;
+  }
+
+  #portfolio .element-center-left img{
+    width: 80px;
+  }
+
+  #portfolio .element-center-right{
+    right: 0;
+    position: absolute;
+    bottom: 200px;
+    z-index: 4;
+  }
+
+  #portfolio .element-center-right img{
+    width: 80px;
+  }
+
+  #portfolio .element-right-bottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1 !important;
+  }
+
+  #portfolio .element-right-bottom img{
+    width: 90px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  #portfolio .element-left-bottom{
+    bottom: 70px;
+    position: absolute;
+    left: 0;
+  }
+
+  #portfolio .element-left-bottom .leaf-twist{
+    width: 150px;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    margin-top: 10px;
+  }
+
+  #portfolio .element-left-bottom .leaf-single{
+    width: 70px;
+    position: absolute;
+    margin: 50px 0 0 20px;
+    z-index: 1;
   }
 
   .partners{
@@ -1300,6 +1546,28 @@ body{
       z-index: -1 !important;
       margin: -14px 0 0 -16px;
     }
+
+    #portfolio .element-center-left{
+      left: 0px;
+      position: absolute;
+      margin: -80px 0 0 0;
+      z-index: 4;
+    }
+  
+    #portfolio .element-center-left img{
+      width: 80px;
+    }
+  
+    #portfolio .element-center-right{
+      right: 0;
+      position: absolute;
+      bottom: 170px;
+      z-index: 4;
+    }
+  
+    #portfolio .element-center-right img{
+      width: 80px;
+    }
   }
 
   @media screen and (max-width: 380px) {
@@ -1392,12 +1660,10 @@ body{
     
     .home .bg-right .blur-parent .blur-component p{
         margin: 0 0 -5px 0;
-        font-family: "Lato", sans-serif;
         font-size: 10px;
     }
     .home .bg-right .blur-parent .blur-component b{
         margin: 0;
-        font-family: "Lato", sans-serif;
         font-size: 10px;
         color: #274416;
     }
@@ -1426,6 +1692,27 @@ body{
     height: fit-content;
   }
 
+  #portfolio .element-center-left{
+    left: 0px;
+    position: absolute;
+    margin: 50px 0 0 0;
+    z-index: 4;
+  }
+
+  #portfolio .element-center-left img{
+    width: 60px;
+  }
+
+  #portfolio .element-center-right{
+    right: 0;
+    position: absolute;
+    bottom: 130px;
+    z-index: 4;
+  }
+
+  #portfolio .element-center-right img{
+    width: 80px;
+  }
   
   .AYP img{
     width: 250px;
