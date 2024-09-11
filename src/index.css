@@ -590,28 +590,6 @@ body{
     height: 500px;
   }
 
-  #portfolio .element-center-left{
-    left: 60px;
-    position: absolute;
-    margin: -250px 0 0 0;
-    z-index: 4;
-  }
-
-  #portfolio .element-center-left img{
-    width: 130px;
-  }
-
-  #portfolio .element-center-right{
-    right: 0;
-    position: absolute;
-    bottom: 300px;
-    z-index: 4;
-  }
-
-  #portfolio .element-center-right img{
-    width: 130px;
-  }
-
   #portfolio .element-right-bottom{
     position: absolute;
     right: 0;
@@ -1137,28 +1115,6 @@ body{
         text-align: center;
       }
 
-      #portfolio .element-center-left{
-        left: 0px;
-        position: absolute;
-        margin: -250px 0 0 0;
-        z-index: 4;
-      }
-    
-      #portfolio .element-center-left img{
-        width: 100px;
-      }
-    
-      #portfolio .element-center-right{
-        right: 0;
-        position: absolute;
-        bottom: 200px;
-        z-index: 4;
-      }
-    
-      #portfolio .element-center-right img{
-        width: 100px;
-      }
-
       #portfolio .element-right-bottom{
         position: absolute;
         right: 0;
@@ -1321,28 +1277,6 @@ body{
   #portfolio .img-bg-button img{
     right: 10px;
     margin-top: -10px;
-  }
-
-  #portfolio .element-center-left{
-    left: 0px;
-    position: absolute;
-    margin: -150px 0 0 0;
-    z-index: 4;
-  }
-
-  #portfolio .element-center-left img{
-    width: 80px;
-  }
-
-  #portfolio .element-center-right{
-    right: 0;
-    position: absolute;
-    bottom: 200px;
-    z-index: 4;
-  }
-
-  #portfolio .element-center-right img{
-    width: 80px;
   }
 
   #portfolio .element-right-bottom{
@@ -1546,28 +1480,6 @@ body{
       z-index: -1 !important;
       margin: -14px 0 0 -16px;
     }
-
-    #portfolio .element-center-left{
-      left: 0px;
-      position: absolute;
-      margin: -80px 0 0 0;
-      z-index: 4;
-    }
-  
-    #portfolio .element-center-left img{
-      width: 80px;
-    }
-  
-    #portfolio .element-center-right{
-      right: 0;
-      position: absolute;
-      bottom: 170px;
-      z-index: 4;
-    }
-  
-    #portfolio .element-center-right img{
-      width: 80px;
-    }
   }
 
   @media screen and (max-width: 380px) {
@@ -1690,28 +1602,6 @@ body{
     margin-top: 5px;
     gap: 10px !important;
     height: fit-content;
-  }
-
-  #portfolio .element-center-left{
-    left: 0px;
-    position: absolute;
-    margin: 50px 0 0 0;
-    z-index: 4;
-  }
-
-  #portfolio .element-center-left img{
-    width: 60px;
-  }
-
-  #portfolio .element-center-right{
-    right: 0;
-    position: absolute;
-    bottom: 130px;
-    z-index: 4;
-  }
-
-  #portfolio .element-center-right img{
-    width: 80px;
   }
   
   .AYP img{

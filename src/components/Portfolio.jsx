@@ -12,8 +12,6 @@ import elemenCipratan from "../assets/elemen/Cipratan 2.png"
 import leafTwist from "../assets/elemen/Monstera 6.png"
 import leafSingle from "../assets/elemen/Monstera 1.png"
 import elementCipratanSide from "../assets/elemen/Cipratan 4-cut.png"
-import sapuRight from "../assets/elemen/sapu-right.png"
-import peralatanShadow from "../assets/elemen/peralatan-shadow.png"
 
 import '@fontsource/source-sans-pro';
 
@@ -148,12 +146,6 @@ function Documentation() {
       </Slider>
       </div>
 
-      <div className="element-center-left">
-        <img src={peralatanShadow} alt="" />
-      </div>
-      <div className="element-center-right">
-        <img src={sapuRight} alt="" />
-      </div>
       <div className="element-left-bottom">
         <img className="leaf-twist" src={leafTwist} alt="" />
         <img className="leaf-single" src={leafSingle} alt="" />
