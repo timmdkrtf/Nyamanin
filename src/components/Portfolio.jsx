@@ -112,7 +112,7 @@ function Documentation() {
         </div>
         <div className="col-12 col-md-4 col-sm-12">
           <p>
-          Tingkatkan kebersihan dan kerapihan di lingkungan rumahmu demi kesehatan yang optimal. Join us now!
+          Tingkatkan kebersihan dan kerapihan di lingkungan rumahmu demi kesehatan yang optimal. Lihat lebih lengkap hasil pengerjaan kami!
           </p>
         </div>
         <div className="col-12 col-md-4 col-sm-12" style={{margin:"0 0 0 auto", textAlign:"end", alignSelf:"center"}}>
@@ -120,7 +120,7 @@ function Documentation() {
             <img src={elemenCipratan} alt="" />
           </div>
           <a href="https://instagram.com/nyamanin.co.id" target="_blank"><button >
-            Lihat Lebih Lengkap!
+            Klik untuk selengkapnya!
           </button></a>
         </div>
       </div>
