@@ -19,7 +19,7 @@ function Home(){
             <div className="container">
                 <div className="content-home">
                     <div className="text-left">
-                        <h1><span className="kebersihan">Kebersihan</span> Berkualitas tanpa batas? <span className="nyamanin"><img src={brushGreen} alt="" />Nyamanin</span> aja</h1>
+                        <h1><span className="kebersihan">Cleaning</span> Service kotor? <span className="nyamanin"><img src={brushGreen} alt="" />Nyamanin</span> aja</h1>
                         <p>Tim profesional kami siap mengatasi noda dan kotoran membandel dengan peralatan terbaik. Hemat waktu, rasakan ketenangan, dan nikmati kebersihan yang tak terlupakan. Pelayanan kami, kepuasan Anda.</p>
                         <div className="d-flex">
                             <a href="#about"><button>Baca Selengkapnya</button></a>

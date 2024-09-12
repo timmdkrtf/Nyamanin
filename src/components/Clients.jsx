@@ -8,7 +8,7 @@ import bahama from "../assets/logo/bahama.png";
 import habatour from "../assets/logo/habatour.png";
 import halakah from "../assets/logo/halakah.png";
 import kronika from "../assets/logo/kronika.png";
-import nyamanin from "../assets/logo/1. Nyamanin Logo Utama (P).png";
+import mdkrtf from "../assets/logo/mdkrtf.png";
 import realtour from "../assets/logo/realtour.png";
 import AYP from "../assets/logo/1. AYP Logo Primary (P).png";
 import TMC from "../assets/logo/1. TMC Logo Primary (P).png";
@@ -97,13 +97,13 @@ const Client = () => {
                 className='items-center justify-center'>
                 <SwiperSlide className="apostrof"><img src={apostrof} alt="apostrof" /></SwiperSlide>
                 <SwiperSlide className="bahana"><img src={bahama} alt="bahana" /></SwiperSlide>
+                <SwiperSlide className="AYP"><img src={AYP} alt="AYP" /></SwiperSlide>
                 <SwiperSlide className="habatour"><img src={habatour} alt="habatour" /></SwiperSlide>
                 <SwiperSlide className="halakah"><img src={halakah} alt="halakah" /></SwiperSlide>
-                <SwiperSlide className="kronika"><img src={kronika} alt="kronika" /></SwiperSlide>
-                <SwiperSlide className="nyamanin"><img src={nyamanin} alt="nyamanin" /></SwiperSlide>
-                <SwiperSlide className="realtour"><img src={realtour} alt="realtour" /></SwiperSlide>
-                <SwiperSlide className="AYP"><img src={AYP} alt="AYP" /></SwiperSlide>
                 <SwiperSlide className="TMC"><img src={TMC} alt="TMC" /></SwiperSlide>
+                <SwiperSlide className="kronika"><img src={kronika} alt="kronika" /></SwiperSlide>
+                <SwiperSlide className="nyamanin"><img src={mdkrtf} alt="mdkrtf" /></SwiperSlide>
+                <SwiperSlide className="realtour"><img src={realtour} alt="realtour" /></SwiperSlide>
                 <SwiperSlide className="TMF"><img src={TMF} alt="TMF" /></SwiperSlide>
             </Swiper>
             <div className='leaf-right-bottom'>
