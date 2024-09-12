@@ -1292,6 +1292,10 @@ body{
     font-size: 14px;
   }
 
+  .home .bg-right .blur-parent .blur-component{
+    padding: 10px 15px;
+  }
+
   #portfolio .img-bg-button img{
     right: 10px;
     margin-top: -10px;
