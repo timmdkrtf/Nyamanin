@@ -1286,7 +1286,9 @@ body{
   }
 
   #portfolio a button{
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-right: -5px;
+    padding: 8px 15px;
   }
 
   #portfolio .img-bg-button img{
