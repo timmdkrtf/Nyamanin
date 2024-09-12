@@ -120,7 +120,7 @@ function Documentation() {
             <img src={elemenCipratan} alt="" />
           </div>
           <a href="https://instagram.com/nyamanin.co.id" target="_blank"><button >
-            Join us Now!
+            Lihat Lebih Lengkap!
           </button></a>
         </div>
       </div>

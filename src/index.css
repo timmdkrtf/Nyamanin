@@ -4,8 +4,7 @@ body{
 
 .navbar{
     padding: 19px 0;
-    background-color: #FFFFFF;
-    /* box-shadow: 0 1px 3px #c4c4c4; */
+    background-color: #274416;
 }
 
 .navbar-brand img{
@@ -16,6 +15,7 @@ body{
     gap: 8px;
     font-family: "Montserrat", sans-serif;
     margin-top: 3px;
+    color: #FFFFFF !important;
 }
 
 .navbar .ms-auto .nav-link{
@@ -25,12 +25,16 @@ body{
     transition-property: color;
     cursor: pointer;
     position: relative;
+    color: #FFFFFF;
+    display: inline-block;
+    width: fit-content;
 }
 
-.nav-link:focus,
-.nav-link:hover {
-  color: #274416;
-  font-weight: 600;
+.navbar .ms-auto .nav-link:hover,
+.navbar .ms-auto .nav-link:active,
+.navbar .ms-auto .nav-link:focus{
+  color: #FBC402;
+  font-weight: 500;
 }
 
 .nav-link:focus:after,
@@ -47,10 +51,22 @@ body{
   position: absolute;
   width: 0%;
   height: 2px;
-  background-color: #274416;
+  background-color: #FBC402;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: width, left;
+}
+
+.navbar-toggler{
+  border: 1px solid #FFFFFF !important;
+}
+
+.navbar-toggler:focus{
+  box-shadow: 0 0 0 1px white;
+}
+
+.navbar-toggler-icon{
+  filter: brightness(100);
 }
 
 .home{
@@ -237,7 +253,6 @@ body{
     box-shadow: 0 2px 4px rgba(196, 196, 196, 1); 
     padding: 12px 15px 12px 15px ;
     gap: 10px;
-    border-radius: 10px;
     position: absolute;
 }
 
@@ -329,7 +344,7 @@ body{
 
 .service {
     margin: 30px 0 100px 0;
-    padding: 100px 0 50px 0;
+    padding: 140px 0 50px 0;
     text-align: center;
 }
 

@@ -22,7 +22,7 @@ function Service(){
                         <div className="card">
                             <img src={iconCleaning} alt="" />
                             <h3>Housekeeping</h3>
-                            <p>General Cleaning, Toilet Cleaning</p>
+                            <p>General Cleaning, Deep Cleaning, dan Toilet Cleaning</p>
                         </div>
                         <div className="card">
                             <img src={iconCouch} alt="" />

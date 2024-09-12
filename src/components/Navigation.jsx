@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logoNyamanin from "../assets/logo/1. Nyamanin Logo Utama (P).png"
+import logoNyamanin from "../assets/logo/2. Nyamanin Logo Utama (N).png"
 
 function Navigation() {
   return (
