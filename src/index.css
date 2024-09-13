@@ -819,7 +819,7 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 102%;
   border-radius: 12px;
   background: linear-gradient(
      to left,
@@ -862,7 +862,7 @@ body{
  }
  
 .order button:hover .shadow {
-  transform: translateY(6px);
+  transform: translateY(8px);
   transition: transform
      250ms
      cubic-bezier(.3, .7, .4, 1.5);
