@@ -797,6 +797,7 @@ body{
   transition: filter 250ms;
   user-select: none;
   touch-action: manipulation;
+  font-family: "Montserrat", sans-serif;
  }
  
 .order .shadow {
