@@ -1587,6 +1587,7 @@ footer .leaf-right-bottom img{
         font-weight: 700;
         font-size: 32px;
         margin: 0 0 20px 0;
+        line-height: 45px;
     }
 
     .home .text-left .nyamanin{
@@ -1594,6 +1595,10 @@ footer .leaf-right-bottom img{
         display: inline-block;
         z-index: 1;
     }
+
+    .home .text-left .nyamanin::after {
+      margin-top: 0px;
+  }
 
     .home .text-left .d-flex{
         font-family: "Montserrat", sans-serif;
@@ -1661,8 +1666,20 @@ footer .leaf-right-bottom img{
         font-weight: 700;
         font-size: 28px;
         margin: 0 0 20px 0;
-        line-height: 45px;
+        line-height: 35px;
     }
+
+    .home .text-left .kebersihan::after {
+      content: "";
+      width: 100%;
+      height: 10px;
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+      background-image: url(/src/assets/elemen/Underline_05.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
 
     .home .text-left h1 .nyamanin{
       font-size: 28px;
@@ -1673,7 +1690,7 @@ footer .leaf-right-bottom img{
         width: 170px;
         height: 38px;
         left: 0px;
-        margin: 5px 0 0 0;
+        margin: 0px 0 0 0;
     }
 
     .home .text-left .d-flex{
