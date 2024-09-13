@@ -13,9 +13,12 @@ import realtour from "../assets/logo/realtour.png";
 import AYP from "../assets/logo/1. AYP Logo Primary (P).png";
 import TMC from "../assets/logo/1. TMC Logo Primary (P).png";
 import TMF from "../assets/logo/1. TMF Logo Primary (P).png";
+import majlis from "../assets/logo/Logo 2.png"
+import insanKamil from "../assets/logo/Logo 1.png"
+import aka from "../assets/logo/AKA.png"
+import ask from "../assets/logo/ASK.png"
 
 import waveTop from "../assets/elemen/Gelombang-top-cut.png"
-import leafRight from "../assets/elemen/Monstera 4.png"
 import '@fontsource/source-sans-pro';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -99,16 +102,17 @@ const Client = () => {
                 <SwiperSlide className="bahana"><img src={bahama} alt="bahana" /></SwiperSlide>
                 <SwiperSlide className="AYP"><img src={AYP} alt="AYP" /></SwiperSlide>
                 <SwiperSlide className="habatour"><img src={habatour} alt="habatour" /></SwiperSlide>
+                <SwiperSlide className="aka"><img src={aka} alt="aka" /></SwiperSlide>
+                <SwiperSlide className="majlis"><img src={majlis} alt="majlis" /></SwiperSlide>
                 <SwiperSlide className="halakah"><img src={halakah} alt="halakah" /></SwiperSlide>
                 <SwiperSlide className="TMC"><img src={TMC} alt="TMC" /></SwiperSlide>
+                <SwiperSlide className="ask"><img src={ask} alt="ask" /></SwiperSlide>
                 <SwiperSlide className="kronika"><img src={kronika} alt="kronika" /></SwiperSlide>
+                <SwiperSlide className="insan-kamil"><img src={insanKamil} alt="insanKamil" /></SwiperSlide>
                 <SwiperSlide className="nyamanin"><img src={mdkrtf} alt="mdkrtf" /></SwiperSlide>
                 <SwiperSlide className="realtour"><img src={realtour} alt="realtour" /></SwiperSlide>
                 <SwiperSlide className="TMF"><img src={TMF} alt="TMF" /></SwiperSlide>
             </Swiper>
-            <div className='leaf-right-bottom'>
-                  <img src={leafRight} alt="" />
-            </div>
         </section>
         </>
     );

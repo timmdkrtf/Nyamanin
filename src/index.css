@@ -703,6 +703,20 @@ body{
     height: 150px;
     object-fit: contain;
   }
+
+  .majlis img, .insan-kamil img{
+    width: 180px;
+    height: 150px;
+    object-fit: contain;
+    margin: 10px;
+  }
+
+  .aka img, .ask img{
+    width: 160px;
+    height: 140px;
+    object-fit: contain;
+    margin-top: 20px;
+  }
   
   .slider-for button{
     padding: 10px 28px;
@@ -755,6 +769,7 @@ body{
   .swiper-slide {
     display: flex;
     text-align: center;
+    align-items: center;
     justify-content: center; /* Pusatkan konten dalam slide */
   }
 
@@ -766,11 +781,25 @@ body{
     z-index: -1;
   }
 
-  .partners .leaf-right-bottom img{
+  .order {
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .order .button-order a button{
+    border: none;
+    background-color: #274416;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  }
+
+  footer .leaf-right-bottom img{
     width: 20%;
     position: absolute;
     right: 0;
-    margin-top: 20px;
+    margin-top: -120px;
   }
 
   footer{
@@ -941,6 +970,20 @@ body{
         margin: 60px 0 0 20px;
         z-index: 1;
       }
+
+      .aka img, .ask img{
+        width: 160px;
+        height: 140px;
+        object-fit: contain;
+        margin-top: 7px;
+      }
+
+      footer .leaf-right-bottom img{
+        width: 20%;
+        position: absolute;
+        right: 0;
+        margin-top: -100px;
+      }
   }
 
   @media screen and (max-width: 991px) {
@@ -1044,17 +1087,17 @@ body{
         margin: 0 0 20px 0px;
     }
 
-    .partners .leaf-right-bottom img{
-      width: 20%;
-      position: absolute;
-      right: 0;
-      margin-top: 60px;
-    }
-
     #portfolio a button{
       padding: 10px 14px;
       font-size: 13px;
       margin-top: 10px;
+    }
+
+    footer .leaf-right-bottom img{
+      width: 20%;
+      position: absolute;
+      right: 0;
+      margin-top: -80px;
     }
   }
 
@@ -1193,11 +1236,11 @@ body{
         z-index: -1;
       }
 
-      .partners .leaf-right-bottom img{
+      footer .leaf-right-bottom img{
         width: 25%;
         position: absolute;
         right: 0;
-        margin-top: 60px;
+        margin-top: -80px;
       }
   }
 
@@ -1405,6 +1448,11 @@ body{
     margin-top: -0px;
   }
 
+  .aka img, .ask img{
+    object-fit: contain;
+    margin-top: 7px;
+  }
+
   .partners .wave-top img{
     position: absolute;
     width: 60%;
@@ -1442,11 +1490,11 @@ body{
   background-size: contain;
 }
 
-.partners .leaf-right-bottom img{
+footer .leaf-right-bottom img{
   width: 35%;
   position: absolute;
   right: 0;
-  margin-top: 60px;
+  margin-top: -70px;
 }
   }
 
@@ -1687,10 +1735,10 @@ body{
   margin-top: -3px !important;
 }
 
-.partners .leaf-right-bottom img{
+footer .leaf-right-bottom img{
   width: 40%;
   position: absolute;
   right: 0;
-  margin-top: 80px;
+  margin-top: -60px;
 }
   }

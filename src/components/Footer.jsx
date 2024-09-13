@@ -5,11 +5,16 @@ import logoNyamanin from "../assets/logo/2. Nyamanin Logo Utama (N).png";
 import { MdOutlinePhone } from "react-icons/md";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 
+import leafRight from "../assets/elemen/Monstera 4.png"
+
 import '@fontsource/source-sans-pro';
 
 const Footer = () => {
   return (
     <footer id="contact" className="text-white py-4">
+      <div className='leaf-right-bottom'>
+        <img src={leafRight} alt="" />
+      </div>
       <Container>
         <Row className="justify-content-between align-items-center">
           <Col md={6} className="py-4">
