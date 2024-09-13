@@ -7,6 +7,7 @@ import doc3 from "../assets/documentation/Cover3.png";
 import doc4 from "../assets/documentation/Cover4.png";
 import doc5 from "../assets/documentation/Cover5.png";
 import doc6 from "../assets/documentation/Cover6.png";
+import doc7 from "../assets/documentation/Group 5 (1).png";
 
 import elemenCipratan from "../assets/elemen/Cipratan 2.png"
 import leafTwist from "../assets/elemen/Monstera 6.png"
@@ -33,7 +34,7 @@ function Documentation() {
   const slides = [
     {
       mainTitle: "",
-      img: doc1,
+      img: doc7,
     },
     {
       mainTitle: "",
@@ -54,6 +55,10 @@ function Documentation() {
     {
       mainTitle: "",
       img: doc6,
+    },
+    {
+      mainTitle: "",
+      img: doc1,
     },
   ];
 
