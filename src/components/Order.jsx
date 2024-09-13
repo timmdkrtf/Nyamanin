@@ -5,8 +5,13 @@ function Order(){
         <div className="order">
             <div className='container'>
                 <div className='button-order'>
-                    <a href="https://api.whatsapp.com/send?phone=6281211113526" target="_blank">
-                        <button>Prioritaskan kenyamananmu sekarang!</button>
+                    <a href="https://api.whatsapp.com/send?phone=6281211113526" target='_blank'>
+                    <button>
+                        <span className="shadow"></span>
+                        <span className="edge"></span>
+                        <span className="front text">Prioritaskan Kenyamananmu Sekarang!
+                        </span>
+                    </button>
                     </a>
                 </div>
             </div>
