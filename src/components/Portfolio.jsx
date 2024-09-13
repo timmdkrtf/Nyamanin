@@ -161,7 +161,7 @@ function Documentation() {
               {slide.type === "image" ? (
                 <img src={slide.img} alt="thumbnail" className="img-fluid" />
               ) : slide.type === "video" ? (
-                <video controls className="img-fluid">
+                <video className="img-fluid">
                   <source src={slide.src} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
