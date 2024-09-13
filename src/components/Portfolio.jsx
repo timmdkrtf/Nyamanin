@@ -44,10 +44,6 @@ function Documentation() {
     },
     {
       type: "image",
-      img: doc2,
-    },
-    {
-      type: "image",
       img: doc3,
     },
     {
@@ -65,6 +61,10 @@ function Documentation() {
     {
       type: "image",
       img: doc1,
+    },
+    {
+      type: "image",
+      img: doc2,
     },
   ];
 
