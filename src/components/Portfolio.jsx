@@ -9,6 +9,8 @@ import doc5 from "../assets/documentation/Cover5.png";
 import doc6 from "../assets/documentation/Cover6.png";
 import doc7 from "../assets/documentation/Group 5 (1).png";
 
+import docVideo from "../assets/documentation/doc.mp4"
+
 import elemenCipratan from "../assets/elemen/Cipratan 2.png"
 import leafTwist from "../assets/elemen/Monstera 6.png"
 import leafSingle from "../assets/elemen/Monstera 1.png"
@@ -33,31 +35,35 @@ function Documentation() {
 
   const slides = [
     {
-      mainTitle: "",
+      type: "image",
       img: doc7,
     },
     {
-      mainTitle: "",
+      type: "video",
+      src: docVideo,
+    },
+    {
+      type: "image",
       img: doc2,
     },
     {
-      mainTitle: "",
+      type: "image",
       img: doc3,
     },
     {
-      mainTitle: "",
+      type: "image",
       img: doc4,
     },
     {
-      mainTitle: "",
+      type: "image",
       img: doc5,
     },
     {
-      mainTitle: "",
+      type: "image",
       img: doc6,
     },
     {
-      mainTitle: "",
+      type: "image",
       img: doc1,
     },
   ];
@@ -72,7 +78,7 @@ function Documentation() {
     ref: sliderForRef,
     responsive: [
       {
-        breakpoint: 576, // Pada layar dengan lebar 768px atau kurang
+        breakpoint: 576,
         settings: {
           arrows: false,
         },
@@ -90,13 +96,13 @@ function Documentation() {
     ref: sliderNavRef,
     responsive: [
       {
-        breakpoint: 768, // Pada layar dengan lebar 768px atau kurang
+        breakpoint: 768,
         settings: {
           slidesToShow: 3,
         },
       },
       {
-        breakpoint: 400, // Pada layar dengan lebar 768px atau kurang
+        breakpoint: 400,
         settings: {
           arrows: false,
           slidesToShow: 2.35,
@@ -111,44 +117,58 @@ function Documentation() {
       className="bg-light text-dark min-vh-100 d-flex flex-column align-items-center justify-content-center p-3"
     >
       <div className="container">
-      <div className="row w-100 py-5">
-        <div className="col-12 col-md-4 col-sm-12">
-          <h2 className="fw-bold">Portofolio <span>Pengerjaan</span></h2>
-        </div>
-        <div className="col-12 col-md-4 col-sm-12">
-          <p>
-          Tingkatkan kebersihan dan kerapihan di lingkungan rumahmu demi kesehatan yang optimal. Lihat lebih lengkap hasil pengerjaan kami!
-          </p>
-        </div>
-        <div className="col-12 col-md-4 col-sm-12" style={{margin:"0 0 0 auto", textAlign:"end", alignSelf:"center"}}>
-          <div className="img-bg-button">
-            <img src={elemenCipratan} alt="" />
+        <div className="row w-100 py-5">
+          <div className="col-12 col-md-4 col-sm-12">
+            <h2 className="fw-bold">Portofolio <span>Pengerjaan</span></h2>
           </div>
-          <a href="https://instagram.com/nyamanin.co.id" target="_blank"><button >
-            Klik untuk selengkapnya!
-          </button></a>
-        </div>
-      </div>
-
-      <Slider {...settingsFor} className="slider-for">
-        {slides.map((slide, index) => (
-          <div key={index} className="image-wrapper position-relative">
-            <img src={slide.img} alt="slide" className="img-fluid w-100" />
-            <CiGlobe className="position-absolute top-0 start-0 m-4 bg-white p-2 rounded-circle" size={48} />
-            <div className="text-white position-absolute">
-              <h4 style={{margin:"-40px 0 0 0"}}>{slide.mainTitle}</h4>
+          <div className="col-12 col-md-4 col-sm-12">
+            <p>
+              Tingkatkan kebersihan dan kerapihan di lingkungan rumahmu demi kesehatan yang optimal. Lihat lebih lengkap hasil pengerjaan kami!
+            </p>
+          </div>
+          <div className="col-12 col-md-4 col-sm-12" style={{margin:"0 0 0 auto", textAlign:"end", alignSelf:"center"}}>
+            <div className="img-bg-button">
+              <img src={elemenCipratan} alt="" />
             </div>
+            <a href="https://instagram.com/nyamanin.co.id" target="_blank"><button>
+              Klik untuk selengkapnya!
+            </button></a>
           </div>
-        ))}
-      </Slider>
+        </div>
 
-      <Slider {...settingsNav} className="slider-nav mt-4 pt-3">
-        {slides.map((slide, index) => (
-          <div key={index} className="px-2">
-            <img src={slide.img} alt="thumbnail" className="img-fluid" />
-          </div>
-        ))}
-      </Slider>
+        <Slider {...settingsFor} className="slider-for">
+          {slides.map((slide, index) => (
+            <div key={index} className="image-wrapper position-relative">
+              {slide.type === "image" ? (
+                <img src={slide.img} alt="slide" className="img-fluid w-100" />
+              ) : slide.type === "video" ? (
+                <video controls className="img-fluid w-100">
+                  <source src={slide.src} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              ) : null}
+              <CiGlobe className="position-absolute top-0 start-0 m-4 bg-white p-2 rounded-circle" size={48} />
+              <div className="text-white position-absolute">
+                <h4 style={{margin:"-40px 0 0 0"}}>{slide.mainTitle}</h4>
+              </div>
+            </div>
+          ))}
+        </Slider>
+
+        <Slider {...settingsNav} className="slider-nav mt-4 pt-3">
+          {slides.map((slide, index) => (
+            <div key={index} className="px-2">
+              {slide.type === "image" ? (
+                <img src={slide.img} alt="thumbnail" className="img-fluid" />
+              ) : slide.type === "video" ? (
+                <video controls className="img-fluid">
+                  <source src={slide.src} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              ) : null}
+            </div>
+          ))}
+        </Slider>
       </div>
 
       <div className="element-left-bottom">
