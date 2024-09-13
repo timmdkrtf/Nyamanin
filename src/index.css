@@ -809,7 +809,7 @@ body{
   border-radius: 12px;
   background: hsl(0deg 0% 0% / 0.25);
   will-change: transform;
-  transform: translateY(7px);
+  transform: translateY(6px);
   transition: transform
      600ms
      cubic-bezier(.3, .7, .4, 1);
