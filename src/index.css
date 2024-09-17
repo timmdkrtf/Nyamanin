@@ -102,7 +102,8 @@ body{
     width: 100%;
     height: 10px;
     position: absolute;
-    bottom: -6px;
+    bottom: -1px;
+    transform: rotate(-1deg);
     left: 0;
     background-image: url('../src/assets/elemen/Underline_05.png');
     background-repeat: no-repeat;
@@ -739,8 +740,8 @@ body{
   }
   
   .swiper-button-next, .swiper-rtl .swiper-button-prev{
-    color: rgb(255, 255, 255) !important;
-    background-color: #a1a1a1;
+    color: #FBC402 !important;
+    background-color: #532200;
     width: 30px !important;
     height: 37px !important;
     border-radius: 5px;
@@ -749,8 +750,8 @@ body{
   }
   
   .swiper-button-prev, .swiper-rtl .swiper-button-prev{
-    color: rgb(255, 255, 255) !important;
-    background-color: #a1a1a1;
+    color: #FBC402 !important;
+    background-color: #532200;
     width: 30px !important;
     height: 37px !important;
     border-radius: 5px;
@@ -807,7 +808,7 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  background: hsl(0deg 0% 0% / 0.25);
+  background: rgb(251, 196, 2);
   will-change: transform;
   transform: translateY(6px);
   transition: transform
@@ -824,8 +825,8 @@ body{
   background: linear-gradient(
      to left,
      #000000 0%,
-     #1e3411 15%,
-     #1e3411 85%,
+     #532200 15%,
+     #532200 85%,
      #000000 100%
    );
  }
@@ -913,7 +914,7 @@ body{
       width: 100%;
       height: 10px;
       position: absolute;
-      bottom: -5px;
+      bottom: -2px;
       left: 0;
       background-image: url('../src/assets/elemen/Underline_05.png');
       background-repeat: no-repeat;
@@ -1608,7 +1609,7 @@ footer .leaf-right-bottom img{
     }
 
     .home .text-left .nyamanin::after {
-      margin-top: 0px;
+      margin-top: 2px;
   }
 
     .home .text-left .d-flex{
@@ -1685,7 +1686,7 @@ footer .leaf-right-bottom img{
       width: 100%;
       height: 10px;
       position: absolute;
-      bottom: -8px;
+      bottom: -5px;
       left: 0;
       background-image: url(/src/assets/elemen/Underline_05.png);
       background-repeat: no-repeat;
