@@ -9,7 +9,7 @@ function Order(){
                     <button>
                         <span className="shadow"></span>
                         <span className="edge"></span>
-                        <span className="front text">Prioritaskan Kenyamananmu Sekarang!
+                        <span className="front text">Yuk, Nyamanin Rumah Kamu Tanpa Ribet!
                         </span>
                     </button>
                     </a>
