@@ -1642,6 +1642,11 @@ body{
         height: max-content !important;
         position: relative;
       }
+
+      .modal-dialog{
+        max-width: 95% !important;
+        font-family: "Montserrat", sans-serif;
+      }
   }
 
   @media screen and (max-width: 576px) {
