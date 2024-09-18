@@ -8,12 +8,16 @@ import {
 import './index.css'
 import React from 'react';
 import Landing from './pages/Landing';
-
+import Laundry from "./pages/Laundry";
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Landing />
+  },
+  {
+    path: '/laundry',
+    element: <Laundry />
   }
 ]);
 

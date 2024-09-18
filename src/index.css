@@ -900,6 +900,285 @@ body{
     font-family: "Lato", sans-serif;
   }
 
+  .service-laundry{
+    position: relative;
+  }
+
+  .service-laundry .packet-laundry{
+    padding: 110px 0 100px 0;
+  }
+
+  .service-laundry .packet-laundry .title h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    margin: 10px 0 50px 0;
+  }
+
+  .service-laundry .packet-laundry .title h2 .sofa{
+    display: inline-block;
+    position: relative;
+    color: #532200;
+  }
+
+  .service-laundry .packet-laundry .title h2 .sofa::after{
+    content: "";
+    width: 100%;
+    height: 8px;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../src/assets/elemen/gelombang-garis.png);
+  }
+
+  .service-laundry .packet-laundry .title h2 .kasur{
+    display: inline-block;
+    position: relative;
+    color: #532200;
+  }
+
+  .service-laundry .packet-laundry .title h2 .kasur::after{
+    content: "";
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../src/assets/elemen/Underline_05.png');
+  }
+
+  .service-laundry .packet-laundry .nyamanin {
+      color: rgb(255, 255, 255);
+      position: relative; 
+      z-index: 1 !important;
+      display: inline-block;
+      z-index: 1;
+      padding: 0 10px;
+      font-size: 39px;
+  }
+
+  .service-laundry .packet-laundry .nyamanin::after{
+    content: "";
+    background-image: url(/src/assets/elemen/Union.png);
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0px;
+    z-index: -1;
+    margin-top: 1px;
+    border-radius: 10px 7px 10px 5px;
+    position: absolute;
+  }
+
+  .service-laundry .packet-laundry .title-content{
+    position: relative;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    opacity: 0.8;
+  }
+
+  .service-laundry .packet-laundry .title-content::before{
+    width: 50px;
+    height: 2px;
+    content: " ";
+    position: absolute;
+    background-color: #274416;
+    left: -60px;
+    margin-top: 10px;
+  }
+
+  .service-laundry .packet-laundry .title-content::after{
+    width: 50px;
+    height: 2px;
+    content: " ";
+    position: absolute;
+    background-color: #274416;
+    right: -60px;
+    margin-top: -15px;
+  }
+
+  .service-laundry .packet-laundry .content{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+    gap: 20px;
+  }
+
+  .service-laundry .packet-laundry .content .card{
+    width: 35%;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 0;
+    transition: 0.3s;
+    height: max-content !important;
+    position: relative;
+  }
+
+  .service-laundry .packet-laundry .content .card:hover{
+    background-color: #274416;
+  }
+
+  .service-laundry .packet-laundry .content .card:hover h3{
+    color: #FBC402;
+  }
+
+  .service-laundry .packet-laundry .content .card:hover p{
+    color: #FFFFFF;
+  }
+
+  .service-laundry .packet-laundry .content .card:hover img{
+    filter: invert(1) brightness(0) invert(1) drop-shadow(0.5px 0.5px 0 #ffffff);
+  }
+
+  .service-laundry .packet-laundry .content .card:hover .pesan-button{
+    box-shadow: 2px 2px 0 #FBC402;
+  }
+
+  .service-laundry .packet-laundry .content .card:hover .port-button{
+    box-shadow: -2px 2px 0 #FBC402;
+  }
+
+  .service-laundry .packet-laundry .content .card:hover .detail-button{
+    color: #ffffff;
+  }
+
+  .service-laundry .packet-laundry .content .card:hover .detail-button::before{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(251, 196, 2, 0.5));
+  }
+
+  .service-laundry .packet-laundry .content .card:hover table{
+    color: #ffffff;
+  }
+
+  .service-laundry .packet-laundry .content .card .pesan-button:hover{
+    box-shadow: 0 4px 0 #FBC402;
+    font-weight: 600;
+  }
+
+  .service-laundry .packet-laundry .content .card .port-button:hover{
+    box-shadow: 0 4px 0 #FBC402;
+    font-weight: 600;
+  }
+
+  .service-laundry .packet-laundry .content .card .detail-button:hover .text{
+    display: none;
+  }
+  .service-laundry .packet-laundry .content .card .detail-button:hover .icon{
+    font-size: 20px;
+    width: 100%;
+    font-weight: 700;
+    display: block;
+    animation: bounce 1s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0); /* Posisi awal dan akhir */
+    }
+    50% {
+      transform: translateY(-5px); /* Posisi di titik tengah (naik) */
+    }
+  }
+
+  .service-laundry .packet-laundry .content .card img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin: 0 auto;
+    filter: drop-shadow(1px 1px 0 #274416);
+  }
+
+  .service-laundry .packet-laundry .content .card .button-card{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 20px 0;
+  }
+
+  .service-laundry .packet-laundry .content .card button{
+    background-color: #FFFFFF;
+    border: 1px solid #274416;
+    color: #274416;
+    padding: 8px 12px;
+    font-size: 15px;
+    transition: 0.3s;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  .service-laundry .packet-laundry .content .card .detail-button{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    bottom: 0;
+    font-size: 14px;
+    width: 100%;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    z-index: 10 !important;
+  }
+
+  .service-laundry .packet-laundry .content .card .detail-button .icon{
+    display: none;
+    transition: transform 0.3s ease;
+  }
+
+  .service-laundry .packet-laundry .content .card .pesan-button{
+    box-shadow: 2px 2px 0 #532200;
+    transition: 0.3s;
+  }
+
+  .service-laundry .packet-laundry .content .card .port-button{
+    box-shadow: -2px 2px 0 #532200;
+  }
+
+  .service-laundry .packet-laundry .content .card h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: 30px 0 5px 0;
+  }
+
+  .service-laundry .packet-laundry .content .card p{
+    font-family: "Source Sans Pro", sans-serif;
+    width: 70%;
+    font-size: 16px;
+    opacity: 0.8;
+    margin: 0 auto;
+  }
+
+  .service-laundry .packet-laundry .content .card table{
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    margin: 30px 0;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+ .modal-dialog{
+    max-width: 70% !important;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .service-laundry .wave img{
+    width: 450px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+  }
+
+  .service-laundry .liquid img{
+    width: 180px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
   @media screen and (max-width: 1200px) {
     .home .text-left h1{
         font-family: "Montserrat", sans-serif;
@@ -1066,6 +1345,16 @@ body{
         right: 0;
         margin-top: -100px;
       }
+
+      .service-laundry .packet-laundry .content .card{
+        width: 40%;
+        padding: 30px 20px;
+        text-align: center;
+        border-radius: 0;
+        transition: 0.3s;
+        height: max-content !important;
+        position: relative;
+      }
   }
 
   @media screen and (max-width: 991px) {
@@ -1180,6 +1469,16 @@ body{
       position: absolute;
       right: 0;
       margin-top: -80px;
+    }
+
+    .service-laundry .packet-laundry .content .card{
+      width: 47%;
+      padding: 30px 20px;
+      text-align: center;
+      border-radius: 0;
+      transition: 0.3s;
+      height: max-content !important;
+      position: relative;
     }
   }
 
@@ -1323,6 +1622,25 @@ body{
         position: absolute;
         right: 0;
         margin-top: -80px;
+      }
+
+      .service-laundry .packet-laundry .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 30px 0 0 0;
+        gap: 20px;
+      }
+    
+      .service-laundry .packet-laundry .content .card{
+        width: 80%;
+        padding: 30px 20px;
+        text-align: center;
+        border-radius: 0;
+        transition: 0.3s;
+        height: max-content !important;
+        position: relative;
       }
   }
 
@@ -1590,6 +1908,58 @@ footer .leaf-right-bottom img{
   right: 0;
   margin-top: -70px;
 }
+
+.service-laundry .packet-laundry .title h2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 10px 0 50px 0;
+}
+
+.service-laundry .packet-laundry .title h2 .kasur::after{
+  bottom: 0px;
+}
+
+.service-laundry .packet-laundry .title h2 .sofa::after{
+  bottom: -1px;
+}
+
+.service-laundry .packet-laundry .nyamanin {
+  color: rgb(255, 255, 255);
+  position: relative; 
+  z-index: 1 !important;
+  display: inline-block;
+  z-index: 1;
+  padding: 0 10px;
+  font-size: 30px;
+}
+
+.service-laundry .packet-laundry .nyamanin::after{
+  content: "";
+  background-image: url(/src/assets/elemen/Union.png);
+  width: 100%;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0px;
+  z-index: -1;
+  margin-top: 1px;
+  border-radius: 10px 7px 10px 5px;
+  position: absolute;
+}
+
+
+.service-laundry .packet-laundry .content .card{
+  width: 85%;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 0;
+  transition: 0.3s;
+  height: max-content !important;
+  position: relative;
+}
   }
 
   @media screen and (max-width: 480px) {
@@ -1669,6 +2039,16 @@ footer .leaf-right-bottom img{
       position: absolute;
       z-index: -1 !important;
       margin: -14px 0 0 -16px;
+    }
+
+    .service-laundry .packet-laundry .content .card{
+      width: 90%;
+      padding: 30px 20px;
+      text-align: center;
+      border-radius: 0;
+      transition: 0.3s;
+      height: max-content !important;
+      position: relative;
     }
   }
 
@@ -1851,5 +2231,57 @@ footer .leaf-right-bottom img{
   position: absolute;
   right: 0;
   margin-top: -60px;
+}
+
+footer .text-center p{
+  font-size: 12px;
+}
+
+.service-laundry .packet-laundry .title h2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  margin: 10px 0 50px 0;
+}
+
+.service-laundry .packet-laundry .nyamanin {
+  color: rgb(255, 255, 255);
+  position: relative; 
+  z-index: 1 !important;
+  display: inline-block;
+  z-index: 1;
+  padding: 0 10px;
+  font-size: 28px;
+}
+
+.service-laundry .packet-laundry .title-content::before{
+  width: 20px;
+  left: -30px;
+}
+
+.service-laundry .packet-laundry .title-content::after{
+  width: 20px;
+  right: -30px;
+}
+
+.service-laundry .packet-laundry .content .card{
+  width: 100%;
+  padding: 30px 10px;
+}
+
+.service-laundry .packet-laundry .content .card button{
+  padding: 7px 11px;
+  font-size: 13px;
+}
+
+.service-laundry .packet-laundry .content .card .button-card{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0 20px 0;
+}
+
+.service-laundry .packet-laundry .content .card table{
+  font-size: 12px;
 }
   }

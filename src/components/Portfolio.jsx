@@ -8,6 +8,7 @@ import doc4 from "../assets/documentation/Cover4.png";
 import doc5 from "../assets/documentation/Cover5.png";
 import doc6 from "../assets/documentation/Cover6.png";
 import doc7 from "../assets/documentation/Group 5 (1).png";
+import doc8 from "../assets/documentation/Before after sofa nyamanin.png"
 
 import docVideo from "../assets/documentation/doc.mp4"
 
@@ -48,7 +49,7 @@ function Documentation() {
     },
     {
       type: "image",
-      img: doc4,
+      img: doc8,
     },
     {
       type: "image",
@@ -61,6 +62,10 @@ function Documentation() {
     {
       type: "image",
       img: doc1,
+    },
+    {
+      type: "image",
+      img: doc4,
     },
     {
       type: "image",
