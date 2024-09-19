@@ -1647,6 +1647,14 @@ body{
         max-width: 95% !important;
         font-family: "Montserrat", sans-serif;
       }
+
+      .service-laundry .wave img{
+        width: 400px;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        margin: -30px 0 0 0;
+      }
   }
 
   @media screen and (max-width: 576px) {
@@ -1964,6 +1972,14 @@ footer .leaf-right-bottom img{
   transition: 0.3s;
   height: max-content !important;
   position: relative;
+}
+
+.service-laundry .wave img{
+  width: 400px;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  margin: -50px 0 0 0;
 }
   }
 
