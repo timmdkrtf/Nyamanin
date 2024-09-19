@@ -185,7 +185,7 @@ function ServiceLaundry() {
                   >
                     Lihat Portofolio
                   </button>
-                  <a target="_blank" href="https://api.whatsapp.com/send?phone=6281211113526&text=Halo!%20boleh%20minta%20informasi%20lebih%20lanjut%20tentang%20layanan%20Laundry%3F">
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=6281211113526&text=Halo!%20boleh%20minta%20informasi%20lebih%20lanjut%20tentang%20layanan%20Laundry%20Sofa%3F">
                     <button className="pesan-button">
                         Pesan Sekarang!
                     </button>
@@ -262,7 +262,7 @@ function ServiceLaundry() {
                   >
                     Lihat Portofolio
                   </button>
-                  <a target="_blank" href="https://api.whatsapp.com/send?phone=6281211113526&text=Halo!%20boleh%20minta%20informasi%20lebih%20lanjut%20tentang%20layanan%20Laundry%3F">
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=6281211113526&text=Halo!%20boleh%20minta%20informasi%20lebih%20lanjut%20tentang%20layanan%20Laundry%20Kasur%3F">
                     <button className="pesan-button">
                         Pesan Sekarang!
                     </button>
