@@ -8,14 +8,16 @@ import SofaIcon from "../../assets/icon/couch.png";
 
 import Slider from "react-slick";
 
-import doc1 from "../../assets/documentation/Cover1.png";
-import doc2 from "../../assets/documentation/Cover2.png";
 import doc3 from "../../assets/documentation/Cover3.png";
 import doc4 from "../../assets/documentation/Cover4.png";
 import doc5 from "../../assets/documentation/Cover5.png";
 import doc6 from "../../assets/documentation/Cover6.png";
-import doc7 from "../../assets/documentation/Group 5 (1).png";
-import doc8 from "../../assets/documentation/Before after sofa nyamanin.png";
+import bfs1 from "../../assets/documentation/Before-after-sofa1.png";
+import bfs2 from "../../assets/documentation/Before-after-sofa2.png";
+import bfs3 from "../../assets/documentation/Before-after-sofa3.png";
+import bfk1 from "../../assets/documentation/Before-after-kasur1.png";
+import bfk2 from "../../assets/documentation/Before-after-kasur2.png";
+import bfk3 from "../../assets/documentation/Before-after-kasur3.png";
 
 import docVideo from "../../assets/documentation/doc.mp4";
 
@@ -39,44 +41,60 @@ function ServiceLaundry() {
     setNav2(sliderNavRef.current);
   }, []);
 
-  const slides = [
-    {
-      type: "image",
-      img: doc7,
-    },
-    {
-      type: "video",
-      src: docVideo,
-    },
-    {
-      type: "image",
-      img: doc3,
-    },
-    {
-      type: "image",
-      img: doc8,
-    },
-    {
-      type: "image",
-      img: doc5,
-    },
-    {
-      type: "image",
-      img: doc6,
-    },
-    {
-      type: "image",
-      img: doc1,
-    },
-    {
-      type: "image",
-      img: doc4,
-    },
-    {
-      type: "image",
-      img: doc2,
-    },
-  ];
+  const slides = {
+    'sofa': [
+      {
+        type: "image",
+        img: bfs1,
+      },
+      {
+        type: "image",
+        img: bfs2,
+      },
+      {
+        type: "image",
+        img: bfs3,
+      },
+      {
+        type: "video",
+        src: docVideo,
+      },
+      {
+        type: "image",
+        img: doc4,
+      },
+      {
+        type: "image",
+        img: doc6,
+      }
+    ],
+    'kasur': [
+      {
+        type: "image",
+        img: bfk1,
+      },
+      {
+        type: "image",
+        img: bfk2,
+      },
+      {
+        type: "image",
+        img: bfk3,
+      },
+      {
+        type: "video",
+        src: docVideo,
+      },
+      {
+        type: "image",
+        img: doc5,
+      },
+      {
+        type: "image",
+        img: doc3,
+      }
+    ]
+  };
 
   const settingsFor = {
     slidesToShow: 1,
@@ -160,7 +178,7 @@ function ServiceLaundry() {
                 </h2>
 
                 <Slider {...settingsFor} className="slider-for">
-                  {slides.map((slide, index) => (
+                  {slides.sofa.map((slide, index) => (
                     <div
                       key={index}
                       className="image-wrapper position-relative"
@@ -187,7 +205,7 @@ function ServiceLaundry() {
                 </Slider>
 
                 <Slider {...settingsNav} className="slider-nav mt-4 pt-3">
-                  {slides.map((slide, index) => (
+                  {slides.sofa.map((slide, index) => (
                     <div key={index} className="px-2">
                       {slide.type === "image" ? (
                         <img
@@ -224,7 +242,7 @@ function ServiceLaundry() {
                 </h2>
 
                 <Slider {...settingsFor} className="slider-for">
-                  {slides.map((slide, index) => (
+                  {slides.kasur.map((slide, index) => (
                     <div
                       key={index}
                       className="image-wrapper position-relative"
@@ -251,7 +269,7 @@ function ServiceLaundry() {
                 </Slider>
 
                 <Slider {...settingsNav} className="slider-nav mt-4 pt-3">
-                  {slides.map((slide, index) => (
+                  {slides.kasur.map((slide, index) => (
                     <div key={index} className="px-2">
                       {slide.type === "image" ? (
                         <img
