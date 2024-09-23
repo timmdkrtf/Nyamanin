@@ -1185,6 +1185,10 @@ footer .text-center .mb-0 {
   margin: 30px auto;
 }
 
+.service-laundry .packet-laundry .title-content{
+  padding-top: 35px;
+}
+
 .service-laundry .packet-laundry .card:hover {
   background-color: #274416;
 }
