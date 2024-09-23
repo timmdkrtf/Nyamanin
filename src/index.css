@@ -1326,7 +1326,7 @@ footer .text-center .mb-0 {
 }
 
 .service-laundry .button-order span.front.text span.booking {
-  transform: rotate(-3deg);
+  transform: rotate(-2deg);
   position: relative;
   display: inline-block;
 }
