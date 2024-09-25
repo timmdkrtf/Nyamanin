@@ -8,9 +8,9 @@ import bfs3 from "../../assets/documentation/Before-after-sofa3.png";
 import bfk1 from "../../assets/documentation/Group 10 (1).png";
 import bfk2 from "../../assets/documentation/Before-after-kasur2.png";
 import bfk3 from "../../assets/documentation/Before-after-kasur3.png";
-import bfk4 from "../../assets/documentation/Before-after-kasur41.png";
-import bfk5 from "../../assets/documentation/Before-after-kasur5.png";
-import bfk6 from "../../assets/documentation/Before-after-kasur6.png";
+// import bfk4 from "../../assets/documentation/Before-after-kasur4.png";
+// import bfk5 from "../../assets/documentation/Before-after-kasur5.png";
+// import bfk6 from "../../assets/documentation/Before-after-kasur6.png";
 
 
 import WaveElemen from "../../assets/elemen/Gelombang-top-right-cut.png";
@@ -73,9 +73,9 @@ function ServiceLaundry() {
                   <img src={bfk1} alt="" />
                   <img src={bfk2} alt="" />
                   <img src={bfk3} alt="" />
-                  <img src={bfk4} alt="" />
+                  {/* <img src={bfk4} alt="" />
                   <img src={bfk5} alt="" />
-                  <img src={bfk6} alt="" />
+                  <img src={bfk6} alt="" /> */}
                 </div>
               </div>
             </div>
