@@ -1,4 +1,3 @@
-import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import logoNyamanin from "../../assets/logo/2. Nyamanin Logo Utama (N).png";
 import "@fontsource/source-sans-pro";
@@ -17,10 +16,18 @@ import LiquidYellow from "../../assets/elemen/Cipratan 4-left-cut.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { FaMapMarked} from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { MdOutlinePhone } from "react-icons/md";
+import { Container, Row, Col, Nav } from "react-bootstrap";
+
+import leafRight from "../../assets/elemen/Monstera 4.png"
 
 function ServiceLaundry() {
 
   return (
+    <>
     <div className="service-laundry">
       <Navbar collapseOnSelect expand="lg" fixed="top">
         <Container>
@@ -99,6 +106,35 @@ function ServiceLaundry() {
         <img src={LiquidYellow} alt="" />
       </div>
     </div>
+
+    <footer id="contact" className="text-white py-4 footer-laundry">
+      <div className='leaf-right-bottom'>
+        <img src={leafRight} alt="" />
+      </div>
+      <Container>
+        <Row className="justify-content-between align-items-center">
+          <Col className="py-4 col-6">
+            <img src={logoNyamanin} alt="nyamanin Logo" /><br/>
+            <small style={{opacity:"0.7", fontSize:"11px"}}>by PT Abdi Sarana Asri</small>
+          </Col>
+          <Col className="text-center text-md-end col-6" style={{opacity:"0.8"}}>
+            <Nav className="justify-content-end justify-content-md-end mb-3">
+            <div className="mt-3">
+              <div className="d-flex align-items-center">
+                <a href="https://instagram.com/nyamanin.co.id" target="_blank" className="text-white text-decoration-none"><FaSquareInstagram className="me-2 fs-2" /><span>nyamanin.co.id</span></a>
+              </div>
+            </div>
+            </Nav>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="text-center" style={{opacity:"0.8"}}>
+            <p className="mb-0">© 2024 PT Abdi Sarana Asri &middot; All Rights Reserved</p>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
+    </>
   );
 }
 

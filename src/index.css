@@ -1211,6 +1211,14 @@ footer .text-center .mb-0 {
   outline: none;
 }
 
+.footer-laundry img{
+  width: 30%;
+}
+
+.footer-laundry .text-center .mb-0{
+  font-size: 13px;
+}
+
 @media screen and (max-width: 1200px) {
   .home .text-left h1 {
     font-family: "Montserrat", sans-serif;
@@ -1848,6 +1856,14 @@ footer .text-center .mb-0 {
     width: 90%;
     margin: 10px auto;
   }
+
+  .footer-laundry img{
+    width: 40%;
+  }
+  
+  .footer-laundry .text-center .mb-0{
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -2110,7 +2126,7 @@ footer .text-center .mb-0 {
     width: 35%;
     position: absolute;
     right: 0;
-    margin-top: -70px;
+    margin-top: -100px;
   }
 
   .service-laundry .packet-laundry .title h2 {
@@ -2182,6 +2198,18 @@ footer .text-center .mb-0 {
   .service-laundry .portfolio.kasur .portfolio-img img{
     width: 100%;
     margin: 10px auto;
+  }
+
+  .footer-laundry img{
+    width: 40%;
+  }
+  
+  .footer-laundry .text-center .mb-0{
+    font-size: 12px;
+  }
+
+  .footer-laundry .text-center .d-flex a{
+    font-size: 14px;
   }
 }
 
@@ -2271,6 +2299,18 @@ footer .text-center .mb-0 {
     transition: 0.3s;
     height: max-content !important;
     position: relative;
+  }
+
+  .footer-laundry img{
+    width: 55%;
+  }
+  
+  .footer-laundry .text-center .mb-0{
+    font-size: 11px;
+  }
+
+  .footer-laundry .text-center .d-flex a{
+    font-size: 14px;
   }
 }
 
@@ -2450,7 +2490,7 @@ footer .text-center .mb-0 {
     width: 40%;
     position: absolute;
     right: 0;
-    margin-top: -60px;
+    margin-top: -80px;
   }
 
   footer .text-center p {
@@ -2578,6 +2618,23 @@ footer .text-center .mb-0 {
     will-change: transform;
     transform: translateY(-4px);
     transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+  }
+
+  .footer-laundry img{
+    width: 70%;
+  }
+  
+  .footer-laundry .text-center .mb-0{
+    font-size: 11px;
+    margin-top: 15px;
+  }
+
+  .footer-laundry .text-center .d-flex a{
+    font-size: 14px;
+  }
+
+  .footer-laundry .text-center .d-flex a span{
+    display: none;
   }
 
 }
