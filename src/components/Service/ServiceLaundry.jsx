@@ -85,7 +85,7 @@ function ServiceLaundry() {
               <p>
                 <span>Mulai dari Rp 30.000 aja!</span><br/>
                 kamu udah bisa dapatkan layanan berkualitas dari Nyamanin. <br/>
-                Selain layanan cuci sofa dan kasur, Nyamanin juga menyediakan banyak layanan lainnya, loh!
+                Selain layanan cuci sofa dan kasur, Nyamanin juga menyediakan berbagai layanan kebersihan lainnya, loh!
               </p>
             </div>
             <div className="button-order">
