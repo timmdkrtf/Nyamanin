@@ -8,6 +8,9 @@ import bfs3 from "../../assets/documentation/Before-after-sofa3.png";
 import bfk1 from "../../assets/documentation/Before-after-kasur1.png";
 import bfk2 from "../../assets/documentation/Before-after-kasur2.png";
 import bfk3 from "../../assets/documentation/Before-after-kasur3.png";
+import bfk4 from "../../assets/documentation/Before-after-kasur4.png";
+import bfk5 from "../../assets/documentation/Before-after-kasur5.png";
+import bfk6 from "../../assets/documentation/Before-after-kasur6.png";
 
 
 import WaveElemen from "../../assets/elemen/Gelombang-top-right-cut.png";
@@ -16,10 +19,7 @@ import LiquidYellow from "../../assets/elemen/Cipratan 4-left-cut.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { FaMapMarked} from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
-import { IoLogoWhatsapp } from "react-icons/io";
-import { MdOutlinePhone } from "react-icons/md";
+import { BsInstagram } from "react-icons/bs";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 
 import leafRight from "../../assets/elemen/Monstera 4.png"
@@ -73,6 +73,9 @@ function ServiceLaundry() {
                   <img src={bfk1} alt="" />
                   <img src={bfk2} alt="" />
                   <img src={bfk3} alt="" />
+                  <img src={bfk4} alt="" />
+                  <img src={bfk5} alt="" />
+                  <img src={bfk6} alt="" />
                 </div>
               </div>
             </div>
@@ -80,8 +83,9 @@ function ServiceLaundry() {
           <div className="order" id="order">
             <div className="text-button">
               <p>
-                <span>Mulai dari Rp 30.000</span> aja kamu udah bisa dapatkan
-                layanan berkualitas dari Nyamanin
+                <span>Mulai dari Rp 30.000 aja!</span><br/>
+                kamu udah bisa dapatkan layanan berkualitas dari Nyamanin. <br/>
+                Selain layanan cuci sofa dan kasur, Nyamanin juga menyediakan banyak layanan lainnya, loh!
               </p>
             </div>
             <div className="button-order">
@@ -93,7 +97,7 @@ function ServiceLaundry() {
                   <span className="shadow"></span>
                   <span className="edge"></span>
                   <span className="front text">
-                    Yuk, Tanya-tanya Dulu aja, Boleh Banget, Kok!
+                    Yuk, Klik untuk Tanyakan Kebutuhanmu!
                   </span>
                 </button>
               </a>
@@ -121,7 +125,7 @@ function ServiceLaundry() {
             <Nav className="justify-content-end justify-content-md-end mb-3">
             <div className="mt-3">
               <div className="d-flex align-items-center">
-                <a href="https://instagram.com/nyamanin.co.id" target="_blank" className="text-white text-decoration-none"><FaSquareInstagram className="me-2 fs-2" /><span>nyamanin.co.id</span></a>
+                <a href="https://instagram.com/nyamanin.co.id" target="_blank" className="text-white text-decoration-none"><BsInstagram className="me-2 fs-4" /><span>nyamanin.co.id</span></a>
               </div>
             </div>
             </Nav>

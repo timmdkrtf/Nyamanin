@@ -1099,7 +1099,7 @@ footer .text-center .mb-0 {
 .service-laundry .text-button {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   opacity: 0.8;
   margin: 10px 0 30px 0;
 }
@@ -1111,6 +1111,7 @@ footer .text-center .mb-0 {
   position: relative;
   opacity: 1 !important;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .service-laundry .text-button span::after {
@@ -1128,7 +1129,7 @@ footer .text-center .mb-0 {
 
 .service-laundry .button-order {
   text-align: center;
-  margin: 20px 0 0 0;
+  margin: 40px 0 0 0;
 }
 
 .service-laundry .button-order button {
@@ -1175,7 +1176,8 @@ footer .text-center .mb-0 {
   display: block;
   position: relative;
   padding: 12px 27px;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
   color: white;
   background: #37611f;
   will-change: transform;
@@ -1842,7 +1844,7 @@ footer .text-center .mb-0 {
   .service-laundry .text-button {
     font-family: "Source Sans Pro", sans-serif;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     opacity: 0.8;
     margin: 10px 0 30px 0;
   }
@@ -2200,6 +2202,27 @@ footer .text-center .mb-0 {
     margin: 10px auto;
   }
 
+  .service-laundry .text-button {
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+    margin: 10px 0 30px 0;
+  }
+
+  .service-laundry .button-order .front {
+    display: block;
+    position: relative;
+    padding: 10px 18px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: white;
+    background: #37611f;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+  }
+
   .footer-laundry img{
     width: 40%;
   }
@@ -2211,6 +2234,7 @@ footer .text-center .mb-0 {
   .footer-laundry .text-center .d-flex a{
     font-size: 14px;
   }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -2311,6 +2335,28 @@ footer .text-center .mb-0 {
 
   .footer-laundry .text-center .d-flex a{
     font-size: 14px;
+  }
+
+  .service-laundry .text-button span{
+    font-size: 18px;
+  }
+
+  .service-laundry .text-button {
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    margin: 10px 0 30px 0;
+  }
+
+  .service-laundry .button-order{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .service-laundry .button-order .front{
+    font-size: 12px;
   }
 }
 
@@ -2602,9 +2648,13 @@ footer .text-center .mb-0 {
   .service-laundry .text-button {
     font-family: "Source Sans Pro", sans-serif;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     opacity: 0.8;
     margin: 10px 0 30px 0;
+  }
+
+  .service-laundry .button-order{
+    width: 85%;
   }
 
   .service-laundry .button-order .front {
@@ -2614,7 +2664,7 @@ footer .text-center .mb-0 {
     font-size: 1.1rem;
     color: white;
     background: #37611f;
-    font-size: 15px;
+    font-size: 12px;
     will-change: transform;
     transform: translateY(-4px);
     transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
