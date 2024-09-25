@@ -2630,11 +2630,7 @@ footer .text-center .mb-0 {
   }
 
   .footer-laundry .text-center .d-flex a{
-    font-size: 14px;
-  }
-
-  .footer-laundry .text-center .d-flex a span{
-    display: none;
+    font-size: 12px;
   }
 
 }
