@@ -5,7 +5,7 @@ import "@fontsource/source-sans-pro";
 import bfs1 from "../../assets/documentation/Before-after-sofa1.png";
 import bfs2 from "../../assets/documentation/Before-after-sofa2.png";
 import bfs3 from "../../assets/documentation/Before-after-sofa3.png";
-import bfk1 from "../../assets/documentation/Before-after-kasur1.png";
+import bfk1 from "../../assets/documentation/Group 10 (1).png";
 import bfk2 from "../../assets/documentation/Before-after-kasur2.png";
 import bfk3 from "../../assets/documentation/Before-after-kasur3.png";
 import bfk4 from "../../assets/documentation/Before-after-kasur4.png";
