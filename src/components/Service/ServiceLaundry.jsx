@@ -1,17 +1,8 @@
-import { useState, useEffect, useRef } from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import logoNyamanin from "../../assets/logo/2. Nyamanin Logo Utama (N).png";
 import "@fontsource/source-sans-pro";
-import BedIcon from "../../assets/icon/double-bed.png";
-import SofaIcon from "../../assets/icon/couch.png";
 
-import Slider from "react-slick";
-
-import doc3 from "../../assets/documentation/Cover3.png";
-import doc4 from "../../assets/documentation/Cover1.png";
-import doc5 from "../../assets/documentation/Cover5.png";
-import doc6 from "../../assets/documentation/Cover6.png";
 import bfs1 from "../../assets/documentation/Before-after-sofa1.png";
 import bfs2 from "../../assets/documentation/Before-after-sofa2.png";
 import bfs3 from "../../assets/documentation/Before-after-sofa3.png";
@@ -19,7 +10,6 @@ import bfk1 from "../../assets/documentation/Before-after-kasur1.png";
 import bfk2 from "../../assets/documentation/Before-after-kasur2.png";
 import bfk3 from "../../assets/documentation/Before-after-kasur3.png";
 
-import docVideo from "../../assets/documentation/doc.mp4";
 
 import WaveElemen from "../../assets/elemen/Gelombang-top-right-cut.png";
 import LiquidYellow from "../../assets/elemen/Cipratan 4-left-cut.png";
@@ -27,169 +17,8 @@ import LiquidYellow from "../../assets/elemen/Cipratan 4-left-cut.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import elemenCipratan from "../../assets/elemen/Cipratan 2.png";
 
 function ServiceLaundry() {
-  const sliderForRef = useRef(null);
-  const sliderNavRef = useRef(null);
-  const sliderForRef2 = useRef(null);
-  const sliderNavRef2 = useRef(null);
-
-  const [nav1, setNav1] = useState(null);
-  const [nav2, setNav2] = useState(null);
-  const [nav3, setNav3] = useState(null);
-  const [nav4, setNav4] = useState(null);
-
-  useEffect(() => {
-    setNav1(sliderForRef.current);
-    setNav2(sliderNavRef.current);
-  }, []);
-
-  useEffect(() => {
-    setNav3(sliderForRef2.current);
-    setNav4(sliderNavRef2.current);
-  }, []);
-
-  const slides = {
-    'sofa': [
-      {
-        type: "image",
-        img: bfs1,
-      },
-      {
-        type: "image",
-        img: bfs2,
-      },
-      {
-        type: "image",
-        img: bfs3,
-      },
-      {
-        type: "video",
-        src: docVideo,
-      },
-      {
-        type: "image",
-        img: doc4,
-      },
-      {
-        type: "image",
-        img: doc6,
-      }
-    ],
-    'kasur': [
-      {
-        type: "image",
-        img: bfk1,
-      },
-      {
-        type: "image",
-        img: bfk2,
-      },
-      {
-        type: "image",
-        img: bfk3,
-      },
-      {
-        type: "video",
-        src: docVideo,
-      },
-      {
-        type: "image",
-        img: doc5,
-      },
-      {
-        type: "image",
-        img: doc3,
-      }
-    ]
-  };
-
-  const settingsFor = {
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    fade: true,
-    dots: true,
-    asNavFor: nav2,
-    ref: sliderForRef,
-    responsive: [
-      {
-        breakpoint: 576,
-        settings: {
-          arrows: false,
-        },
-      },
-    ],
-  };
-
-  const settingsNav = {
-    slidesToShow: 4.34,
-    slidesToScroll: 1,
-    asNavFor: nav1,
-    arrows: false,
-    centerMode: true,
-    focusOnSelect: true,
-    ref: sliderNavRef,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 400,
-        settings: {
-          arrows: false,
-          slidesToShow: 2.35,
-        },
-      },
-    ],
-  };
-
-  const settingsFor2 = {
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    fade: true,
-    dots: true,
-    asNavFor: nav4,
-    ref: sliderForRef2,
-    responsive: [
-      {
-        breakpoint: 576,
-        settings: {
-          arrows: false,
-        },
-      },
-    ],
-  };
-
-  const settingsNav2 = {
-    slidesToShow: 4.34,
-    slidesToScroll: 1,
-    asNavFor: nav3,
-    arrows: false,
-    centerMode: true,
-    focusOnSelect: true,
-    ref: sliderNavRef2,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 400,
-        settings: {
-          arrows: false,
-          slidesToShow: 2.35,
-        },
-      },
-    ],
-  };
 
   return (
     <div className="service-laundry">
@@ -214,130 +43,30 @@ function ServiceLaundry() {
             </h2>
           </div>
           <div className="sofa">
-            <div className="title-content">
-              <h6>Paket Layanan Laundry Sofa</h6>
-            </div>
-            <a href="#order">
-              <div className="card sofa">
-                <img src={SofaIcon} alt="" />
-                <h3>Sofa</h3>
-              </div>
-            </a>
             <div className="portfolio sofa">
               <div className="container">
                 <h2 className="fw-bold">
-                  Portofolio <span>Pengerjaan</span>
+                  Portofolio <span>Pengerjaan</span> Sofa
                 </h2>
-
-                <Slider {...settingsFor} className="slider-for">
-                  {slides.sofa.map((slide, index) => (
-                    <div
-                      key={index}
-                      className="image-wrapper position-relative"
-                    >
-                      {slide.type === "image" ? (
-                        <img
-                          src={slide.img}
-                          alt="slide"
-                          className="img-fluid w-100"
-                        />
-                      ) : slide.type === "video" ? (
-                        <video controls className="img-fluid w-100">
-                          <source src={slide.src} type="video/mp4" />
-                          Your browser does not support the video tag.
-                        </video>
-                      ) : null}
-                      <div className="text-white position-absolute">
-                        <h4 style={{ margin: "-40px 0 0 0" }}>
-                          {slide.mainTitle}
-                        </h4>
-                      </div>
-                    </div>
-                  ))}
-                </Slider>
-
-                <Slider {...settingsNav} className="slider-nav mt-4 pt-3">
-                  {slides.sofa.map((slide, index) => (
-                    <div key={index} className="px-2">
-                      {slide.type === "image" ? (
-                        <img
-                          src={slide.img}
-                          alt="thumbnail"
-                          className="img-fluid"
-                        />
-                      ) : slide.type === "video" ? (
-                        <video className="img-fluid">
-                          <source src={slide.src} type="video/mp4" />
-                          Your browser does not support the video tag.
-                        </video>
-                      ) : null}
-                    </div>
-                  ))}
-                </Slider>
+                <div className="portfolio-img">
+                  <img src={bfs1} alt="" />
+                  <img src={bfs2} alt="" />
+                  <img src={bfs3} alt="" />
+                </div>
               </div>
             </div>
           </div>
           <div className="kasur">
-            <div className="title-content">
-              <h6>Paket Layanan Laundry Kasur</h6>
-            </div>
-            <a href="#order">
-              <div className="card kasur">
-                <img src={BedIcon} alt="" />
-                <h3>Kasur</h3>
-              </div>
-            </a>
             <div className="portfolio kasur">
               <div className="container">
                 <h2 className="fw-bold">
-                  Portofolio <span>Pengerjaan</span>
+                  Portofolio <span>Pengerjaan</span> Kasur
                 </h2>
-
-                <Slider {...settingsFor2} className="slider-for">
-                  {slides.kasur.map((slide, index) => (
-                    <div
-                      key={index}
-                      className="image-wrapper position-relative"
-                    >
-                      {slide.type === "image" ? (
-                        <img
-                          src={slide.img}
-                          alt="slide"
-                          className="img-fluid w-100"
-                        />
-                      ) : slide.type === "video" ? (
-                        <video controls className="img-fluid w-100">
-                          <source src={slide.src} type="video/mp4" />
-                          Your browser does not support the video tag.
-                        </video>
-                      ) : null}
-                      <div className="text-white position-absolute">
-                        <h4 style={{ margin: "-40px 0 0 0" }}>
-                          {slide.mainTitle}
-                        </h4>
-                      </div>
-                    </div>
-                  ))}
-                </Slider>
-
-                <Slider {...settingsNav2} className="slider-nav mt-4 pt-3">
-                  {slides.kasur.map((slide, index) => (
-                    <div key={index} className="px-2">
-                      {slide.type === "image" ? (
-                        <img
-                          src={slide.img}
-                          alt="thumbnail"
-                          className="img-fluid"
-                        />
-                      ) : slide.type === "video" ? (
-                        <video className="img-fluid">
-                          <source src={slide.src} type="video/mp4" />
-                          Your browser does not support the video tag.
-                        </video>
-                      ) : null}
-                    </div>
-                  ))}
-                </Slider>
+                <div className="portfolio-img">
+                  <img src={bfk1} alt="" />
+                  <img src={bfk2} alt="" />
+                  <img src={bfk3} alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -357,7 +86,7 @@ function ServiceLaundry() {
                   <span className="shadow"></span>
                   <span className="edge"></span>
                   <span className="front text">
-                    Yuk, <span className="booking">Booking</span> Sekarang
+                    Yuk, Tanya-tanya Dulu aja, Boleh Banget, Kok!
                   </span>
                 </button>
               </a>

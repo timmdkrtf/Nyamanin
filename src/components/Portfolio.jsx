@@ -1,14 +1,14 @@
 import { useState, useRef, useEffect } from "react";
 import Slider from "react-slick";
-import { CiGlobe } from "react-icons/ci";
 import doc1 from "../assets/documentation/Cover1.png";
 import doc2 from "../assets/documentation/Cover2.png";
 import doc3 from "../assets/documentation/Cover3.png";
-import doc4 from "../assets/documentation/Cover4.png";
-import doc5 from "../assets/documentation/Cover5.png";
-import doc6 from "../assets/documentation/Cover6.png";
-import doc7 from "../assets/documentation/Before-after-kasur1.png";
-import doc8 from "../assets/documentation/Before-after-sofa1.png"
+import bfs1 from "../assets/documentation/Before-after-sofa1.png";
+import bfs2 from "../assets/documentation/Before-after-sofa2.png";
+import bfs3 from "../assets/documentation/Before-after-sofa3.png";
+import bfk1 from "../assets/documentation/Before-after-kasur1.png";
+import bfk2 from "../assets/documentation/Before-after-kasur2.png";
+import bfk3 from "../assets/documentation/Before-after-kasur3.png";
 
 import docVideo from "../assets/documentation/doc.mp4"
 
@@ -37,27 +37,31 @@ function Documentation() {
   const slides = [
     {
       type: "image",
-      img: doc7,
-    },
-    {
-      type: "video",
-      src: docVideo,
+      img: bfs1,
     },
     {
       type: "image",
-      img: doc3,
+      img: bfk1,
     },
     {
       type: "image",
-      img: doc8,
+      img: bfs2,
     },
     {
       type: "image",
-      img: doc5,
+      img: bfk2,
     },
     {
       type: "image",
-      img: doc6,
+      img: bfs3,
+    },
+    {
+      type: "image",
+      img: bfk3,
+    },
+    {
+      type: "image",
+      img: doc2,
     },
     {
       type: "image",
@@ -65,11 +69,11 @@ function Documentation() {
     },
     {
       type: "image",
-      img: doc4,
+      img: doc3,
     },
     {
-      type: "image",
-      img: doc2,
+      type: "video",
+      src: docVideo,
     },
   ];
 
@@ -86,6 +90,7 @@ function Documentation() {
         breakpoint: 576,
         settings: {
           arrows: false,
+          dots: false,
         },
       }
     ],
@@ -152,7 +157,6 @@ function Documentation() {
                   Your browser does not support the video tag.
                 </video>
               ) : null}
-              <CiGlobe className="position-absolute top-0 start-0 m-4 bg-white p-2 rounded-circle" size={48} />
               <div className="text-white position-absolute">
                 <h4 style={{margin:"-40px 0 0 0"}}>{slide.mainTitle}</h4>
               </div>
