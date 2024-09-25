@@ -1005,12 +1005,12 @@ footer .text-center .mb-0 {
 .service-laundry .portfolio h2.fw-bold span::after {
   content: "";
   width: 100%;
-  height: 5px;
+  height: 3px;
   position: absolute;
-  bottom: -5px;
+  bottom: -4px;
   transform: rotate(-1deg);
   left: 0;
-  background-image: url(../src/assets/elemen/gelombang-garis.png);
+  background-image: url(../src/assets/elemen/Underline_05-green.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
