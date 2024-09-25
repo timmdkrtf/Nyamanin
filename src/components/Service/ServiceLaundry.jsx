@@ -46,7 +46,7 @@ function ServiceLaundry() {
             <div className="portfolio sofa">
               <div className="container">
                 <h2 className="fw-bold">
-                  Portofolio <span>Pengerjaan</span> Sofa
+                  Portofolio Pengerjaan <span>Sofa</span>
                 </h2>
                 <div className="portfolio-img">
                   <img src={bfs1} alt="" />
@@ -60,7 +60,7 @@ function ServiceLaundry() {
             <div className="portfolio kasur">
               <div className="container">
                 <h2 className="fw-bold">
-                  Portofolio <span>Pengerjaan</span> Kasur
+                  Portofolio Pengerjaan <span>Kasur</span>
                 </h2>
                 <div className="portfolio-img">
                   <img src={bfk1} alt="" />
