@@ -39,7 +39,7 @@ function Home(){
                             <div className="blur-component leftBottom">
                                 <CiSettings className="fs-2"/>
                                 <div>
-                                    <p>Always on Stanby</p>
+                                    <p>Always Standby</p>
                                     <b>Responsive</b>
                                 </div>
                             </div>
