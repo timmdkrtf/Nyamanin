@@ -1,5 +1,5 @@
 import { FaMapMarked} from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
+import { BsInstagram } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";
 import logoNyamanin from "../assets/logo/2. Nyamanin Logo Utama (N).png";
 import { MdOutlinePhone } from "react-icons/md";
@@ -29,7 +29,7 @@ const Footer = () => {
                 <a href="" className="text-white text-decoration-none">+62 251 8632 170</a>
               </div>
               <div className="d-flex align-items-center">
-                <FaSquareInstagram className="me-2" />
+                <BsInstagram className="me-2" />
                 <a href="https://instagram.com/nyamanin.co.id" target="_blank" className="text-white text-decoration-none">nyamanin.co.id</a>
               </div>
             </div>
