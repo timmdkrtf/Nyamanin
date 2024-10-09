@@ -40,7 +40,7 @@ const Footer = () => {
                 <FaMapMarked />
               </Nav.Link>
               <Nav.Link target="_blank" href="https://instagram.com/nyamanin.co.id" className="text-white fs-3 me-1">
-                <FaSquareInstagram />
+                <BsInstagram />
               </Nav.Link>
               <Nav.Link target="_blank" href="https://api.whatsapp.com/send?phone=6281211113526" className="text-white fs-3">
                 <IoLogoWhatsapp />
