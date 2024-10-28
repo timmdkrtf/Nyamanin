@@ -22,7 +22,7 @@ const Footer = () => {
             <small style={{opacity:"0.7", fontSize:"11px"}}>by PT Abdi Sarana Asri</small>
             <div className="mt-3" style={{opacity:"0.8"}}>
               <div className="mb-2">
-                Jl. Aria Surialaga No.83, Kota Bogor 16119
+                Jl. Aria Surialaga No. 83, Kota Bogor 16119
               </div>
               <div className="d-flex align-items-center mb-2">
                 <MdOutlinePhone className="me-2" />
