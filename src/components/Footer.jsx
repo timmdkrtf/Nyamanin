@@ -1,8 +1,10 @@
-import { FaMapMarked} from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";
 import logoNyamanin from "../assets/logo/2. Nyamanin Logo Utama (N).png";
-import { MdOutlinePhone } from "react-icons/md";
+import { MdLocalPhone } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 
 import leafRight from "../assets/elemen/Monstera 4.png"
@@ -22,28 +24,32 @@ const Footer = () => {
             <small style={{opacity:"0.7", fontSize:"11px"}}>by PT Abdi Sarana Asri</small>
             <div className="mt-3" style={{opacity:"0.8"}}>
               <div className="mb-2">
-                Jl. Aria Surialaga No. 83, Kota Bogor 16119
+                <a href="https://maps.app.goo.gl/j62wQTYNX8QaPhY58" className="text-white text-decoration-none" target="_blank">Jl. Aria Surialaga No. 83, Kota Bogor 16119</a>
               </div>
               <div className="d-flex align-items-center mb-2">
-                <MdOutlinePhone className="me-2" />
-                <a href="" className="text-white text-decoration-none">+62 251 8632 170</a>
+                <MdLocalPhone className="me-2" />
+                <a href="tel:+622518632170" className="text-white text-decoration-none" target="_blank">+62 251 8632 170</a>
+              </div>
+              <div className="d-flex align-items-center mb-2">
+              <IoLogoWhatsapp className="me-2" />
+                <a href="https://api.whatsapp.com/send?phone=6281211113526" className="text-white text-decoration-none" target="_blank">+62 812 1111 3526</a>
               </div>
               <div className="d-flex align-items-center">
-                <BsInstagram className="me-2" />
-                <a href="https://instagram.com/nyamanin.co.id" target="_blank" className="text-white text-decoration-none">nyamanin.co.id</a>
+                <MdEmail className="me-2" />
+                <a href="mailto:contact@nyamanin.co.id" target="_blank" className="text-white text-decoration-none">contact@nyamanin.co.id</a>
               </div>
             </div>
           </Col>
           <Col md={6} className="text-center text-md-end" style={{opacity:"0.8"}}>
             <Nav className="justify-content-center justify-content-md-end mb-3">
-              <Nav.Link target="_blank" href="https://maps.app.goo.gl/j62wQTYNX8QaPhY58" className="text-white fs-3 me-1">
-                <FaMapMarked />
+              <Nav.Link href="https://www.facebook.com/people/Nyamanin/61557660225538/" target="_blank" className="text-white fs-3 me-1">
+                <FaFacebook />
               </Nav.Link>
-              <Nav.Link target="_blank" href="https://instagram.com/nyamanin.co.id" className="text-white fs-3 me-1">
+              <Nav.Link href="https://www.tiktok.com/tag/nyamanin" target="_blank" className="text-white fs-3 me-1">
+                <FaTiktok />
+              </Nav.Link>
+              <Nav.Link href="https://instagram.com/nyamanin.co.id" className="text-white fs-3 me-1" target="_blank">
                 <BsInstagram />
-              </Nav.Link>
-              <Nav.Link target="_blank" href="https://api.whatsapp.com/send?phone=6281211113526" className="text-white fs-3">
-                <IoLogoWhatsapp />
               </Nav.Link>
             </Nav>
           </Col>
