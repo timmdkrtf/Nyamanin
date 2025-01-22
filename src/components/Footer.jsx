@@ -56,7 +56,7 @@ const Footer = () => {
         </Row>
         <Row>
           <Col className="text-center" style={{opacity:"0.8"}}>
-            <p className="mb-0">© 2024 PT Abdi Sarana Asri &middot; All Rights Reserved</p>
+            <p className="mb-0">© 2025 PT Abdi Sarana Asri &middot; All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
