@@ -888,15 +888,20 @@ footer {
 }
 
 footer .py-4 small {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.6;
+  font-size: 11px;
 }
 
 footer .py-4 .mt-3 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-footer .text-center .mb-0 {
-  font-family: "Lato", sans-serif;
+footer .text-end {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 -4px 0;
 }
 
 .service-laundry {
