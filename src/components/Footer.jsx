@@ -28,16 +28,22 @@ const Footer = () => {
                 <a href="https://maps.app.goo.gl/j62wQTYNX8QaPhY58" className="text-white text-decoration-none" target="_blank">Jl. Aria Surialaga No. 83, Kota Bogor 16119</a>
               </div>
               <div className="d-flex align-items-center" style={{padding: "5px 0"}}>
-                <BsFillTelephoneFill className="fs-5" style={{ margin:"1px 15px 0 0" }} />
-                <a href="tel:+622518632170" className="text-white text-decoration-none" target="_blank">+62 251 8632 170</a>
+                <a href="tel:+622518632170" className="text-white text-decoration-none" target="_blank">
+                  <BsFillTelephoneFill className="fs-5" style={{ margin:"-2px 15px 0 0" }} />
+                  +62 251 8632 170
+                </a>
               </div>
               <div className="d-flex align-items-center" style={{padding: "5px 0"}}>
-              <BsWhatsapp className="fs-5" style={{ margin:"1px 15px 0 0" }} />
-                <a href="https://api.whatsapp.com/send?phone=6281211113526" className="text-white text-decoration-none" target="_blank">+62 812 1111 3526</a>
+                <a href="https://api.whatsapp.com/send?phone=6281211113526" className="text-white text-decoration-none" target="_blank">
+                  <BsWhatsapp className="fs-5" style={{ margin:"-2px 15px 0 0" }} />
+                  +62 812 1111 3526
+                </a>
               </div>
               <div className="d-flex align-items-center" style={{padding: "5px 0"}}>
-                <BsFillEnvelopeFill className="fs-5" style={{ margin:"1px 15px 0 0" }} />
-                <a href="mailto:contact@nyamanin.co.id" target="_blank" className="text-white text-decoration-none">contact@nyamanin.co.id</a>
+                <a href="mailto:contact@nyamanin.co.id" target="_blank" className="text-white text-decoration-none">
+                  <BsFillEnvelopeFill className="fs-5" style={{ margin:"-2px 15px 0 0" }} />
+                  contact@nyamanin.co.id
+                </a>
               </div>
             </div>
           </Col>

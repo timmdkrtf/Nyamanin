@@ -2548,6 +2548,10 @@ footer .text-end {
     font-size: 12px;
   }
 
+  footer .text-end{
+    font-size: 11px;
+  }
+
   .service-laundry .packet-laundry .card {
     width: 100%;
   }
